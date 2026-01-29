@@ -1,0 +1,14 @@
+[00:00:02.673] Server  LOG     ✓ Ready in 2.1s
+[00:00:05.907] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.156] Browser WARN    Image with src "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:06.156] Browser WARN    Image with src "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.156] Browser WARN    Image with src "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2670&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.156] Browser WARN    Image with src "https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=2670&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.507] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1570129477492-45f003fdd66b?q=80&w=2670&auto=format&fit=crop" 404
+[00:00:34.933] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1570129477492-45f003fdd66b?q=80&w=2670&auto=format&fit=crop" 404
+[00:00:36.451] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1570129477492-45f003fdd66b?q=80&w=2670&auto=format&fit=crop" 404
+[00:01:00.599] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1570129477492-45f003fdd66b?q=80&w=2670&auto=format&fit=crop" 404
+[00:01:00.637] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1570129477492-45f003fdd66b?q=80&w=2670&auto=format&fit=crop" 404
+[00:01:10.347] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1570129477492-45f003fdd66b?q=80&w=2670&auto=format&fit=crop" 404
+[00:01:18.767] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1570129477492-45f003fdd66b?q=80&w=2670&auto=format&fit=crop" 404
