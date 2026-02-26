@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/juanmanuelborigen/Desktop/HippoSoft/buildin/app/proyectos/%5Bproyecto%5D/invertir/verificacion-identidad/page.tsx"],"sourcesContent":["import React from 'react'\n\nexport default function VerificacionIdentidadPage() {\n  return (\n    <div></div>\n  )\n}"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;;;;AAEL"}}]
+}

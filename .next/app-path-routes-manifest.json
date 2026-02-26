@@ -1,6 +1,13 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/busqueda/page": "/busqueda",
   "/favicon.ico/route": "/favicon.ico",
-  "/page": "/"
+  "/inversiones/page": "/inversiones",
+  "/page": "/",
+  "/proyectos/[id]/invertir/confirmacion/page": "/proyectos/[id]/invertir/confirmacion",
+  "/proyectos/[id]/invertir/monto-inversion/page": "/proyectos/[id]/invertir/monto-inversion",
+  "/proyectos/[id]/invertir/pago-exitoso/page": "/proyectos/[id]/invertir/pago-exitoso",
+  "/proyectos/[id]/invertir/verificacion-identidad/page": "/proyectos/[id]/invertir/verificacion-identidad",
+  "/proyectos/[id]/page": "/proyectos/[id]"
 }

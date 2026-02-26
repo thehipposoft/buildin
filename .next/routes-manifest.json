@@ -20,7 +20,48 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/proyectos/[id]",
+      "regex": "^/proyectos/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/proyectos/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/proyectos/[id]/invertir/confirmacion",
+      "regex": "^/proyectos/([^/]+?)/invertir/confirmacion(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/proyectos/(?<nxtPid>[^/]+?)/invertir/confirmacion(?:/)?$"
+    },
+    {
+      "page": "/proyectos/[id]/invertir/monto-inversion",
+      "regex": "^/proyectos/([^/]+?)/invertir/monto\\-inversion(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/proyectos/(?<nxtPid>[^/]+?)/invertir/monto\\-inversion(?:/)?$"
+    },
+    {
+      "page": "/proyectos/[id]/invertir/pago-exitoso",
+      "regex": "^/proyectos/([^/]+?)/invertir/pago\\-exitoso(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/proyectos/(?<nxtPid>[^/]+?)/invertir/pago\\-exitoso(?:/)?$"
+    },
+    {
+      "page": "/proyectos/[id]/invertir/verificacion-identidad",
+      "regex": "^/proyectos/([^/]+?)/invertir/verificacion\\-identidad(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/proyectos/(?<nxtPid>[^/]+?)/invertir/verificacion\\-identidad(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/",
@@ -41,10 +82,22 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/busqueda",
+      "regex": "^/busqueda(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/busqueda(?:/)?$"
+    },
+    {
       "page": "/favicon.ico",
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/inversiones",
+      "regex": "^/inversiones(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/inversiones(?:/)?$"
     }
   ],
   "dataRoutes": [],

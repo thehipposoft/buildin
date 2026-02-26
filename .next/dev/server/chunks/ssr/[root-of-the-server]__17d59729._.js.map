@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///Users/juanmanuelborigen/Desktop/HippoSoft/buildin/app/proyectos/%5Bid%5D/page.tsx"],"sourcesContent":["/* import BottomNavigation from '@/components/BottomNavigation'\nimport DetalleProyecto from '@/components/DetalleProyecto'\nimport React from 'react'\n\nexport default function page() {\n  return (\n    <div>\n        <DetalleProyecto />\n        <BottomNavigation />\n    </div>\n  )\n}\n */\n\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;CAYC,GAZD"}},
+    {"offset": {"line": 29, "column": 4}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import Image from "next/image";
 import {
     Search,
@@ -12,21 +12,44 @@ import {
     X,
     ChevronDown
 } from "lucide-react";
-import { PROJECTS, FILTER_OPTIONS, Project } from "./constants";
+import { PROJECTS, FILTER_OPTIONS } from "./constants";
+import { Project } from "@/types";
+import Link from "next/link";
 
-export default function Marketplace() {
-    const [searchQuery, setSearchQuery] = useState("");
+interface MarketplaceProps {
+    initialSearchQuery?: string;
+    initialFilters?: {
+        ubicacion?: string | null;
+        estado?: string | null;
+        roi?: string | null;
+        plazo?: string | null;
+    };
+}
+
+export default function Marketplace({ initialSearchQuery = "", initialFilters = {} }: MarketplaceProps = {}) {
+    const [searchQuery, setSearchQuery] = useState(initialSearchQuery);
     const [selectedFilters, setSelectedFilters] = useState<{
         ubicacion: string | null;
         estado: string | null;
         roi: string | null;
         plazo: string | null;
     }>({
-        ubicacion: null,
-        estado: null,
-        roi: null,
-        plazo: null,
+        ubicacion: initialFilters.ubicacion || null,
+        estado: initialFilters.estado || null,
+        roi: initialFilters.roi || null,
+        plazo: initialFilters.plazo || null,
     });
+
+    // Update filters when initial values change
+    useEffect(() => {
+        setSearchQuery(initialSearchQuery);
+        setSelectedFilters({
+            ubicacion: initialFilters.ubicacion || null,
+            estado: initialFilters.estado || null,
+            roi: initialFilters.roi || null,
+            plazo: initialFilters.plazo || null,
+        });
+    }, [initialSearchQuery, initialFilters]);
 
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
@@ -43,14 +66,14 @@ export default function Marketplace() {
             // Search Filter
             if (
                 searchQuery &&
-                !project.name.toLowerCase().includes(searchQuery.toLowerCase()) &&
-                !project.location.toLowerCase().includes(searchQuery.toLowerCase())
+                !project.nombre.toLowerCase().includes(searchQuery.toLowerCase()) &&
+                !project.ubicacion.toLowerCase().includes(searchQuery.toLowerCase())
             ) {
                 return false;
             }
 
             // Category Filters
-            if (selectedFilters.ubicacion && project.locationType !== selectedFilters.ubicacion) return false;
+            if (selectedFilters.ubicacion && project.ubicacionType !== selectedFilters.ubicacion) return false;
 
             // Strict status matching or mapping? Assuming exact match for now based on options
             if (selectedFilters.estado) {
@@ -64,13 +87,13 @@ export default function Marketplace() {
             // For this demo, let's implement a simple logic: if filter is 13%, show projects with ROI >= 13%
             if (selectedFilters.roi) {
                 const filterRoi = parseInt(selectedFilters.roi.replace("%", ""));
-                if (project.roiValue < filterRoi) return false;
+                if (project.valorRoi < filterRoi) return false;
             }
 
             // Plazo Logic
             if (selectedFilters.plazo) {
                 const filterMonths = parseInt(selectedFilters.plazo.split(" ")[0]);
-                if (project.termMonths !== filterMonths) return false;
+                if (project.plazo !== filterMonths) return false;
             }
 
             return true;
@@ -79,24 +102,24 @@ export default function Marketplace() {
 
     return (
         <div className="min-h-screen bg-gray-50 pb-20 font-sans">
-            <main className="mx-auto max-w-7xl px-4 py-6 md:px-6">
+            <main className="mx-auto max-w-7xl px-4 pt-2 pb-6 md:px-6">
                 {/* Search */}
                 <div className="relative mb-6">
                     <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
                     <input
                         type="text"
                         placeholder="Buscar Proyectos"
-                        className="w-full rounded-lg border border-gray-200 bg-white py-3 pl-10 pr-4 text-sm text-[var(--color-black)] shadow-sm focus:border-[var(--color-blue-accent)] focus:outline-hidden focus:ring-1 focus:ring-[var(--color-blue-accent)]"
+                        className="w-full rounded-md bg-[#F3F4F6] py-3 pl-10 pr-4 text-sm text-black shadow-sm focus:border-blue-accent focus:outline-none focus:ring-1 focus:ring-blue-accent"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                     />
                 </div>
 
                 {/* Filters */}
-                <div className="mb-8">
+                <div className="mb-8 bg-white border border-border-color rounded-md p-4">
                     <div className="flex items-center justify-between mb-3">
-                        <h2 className="text-sm font-semibold text-[var(--color-black)]">Filtros Aplicados</h2>
-                        <Filter className="h-4 w-4 text-[var(--color-core-blue)]" />
+                        <h2 className="text-base font-inter text-black">Filtros Aplicados</h2>
+                        <Filter className="h-4 w-4 text-core-blue" />
                     </div>
 
                     <div className="flex flex-wrap gap-2">
@@ -105,8 +128,8 @@ export default function Marketplace() {
                             <button
                                 onClick={() => setActiveDropdown(activeDropdown === "ubicacion" ? null : "ubicacion")}
                                 className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${selectedFilters.ubicacion
-                                    ? "bg-[var(--color-core-blue)] text-white"
-                                    : "bg-[var(--color-gris-ui)] text-[var(--color-core-blue)]"
+                                    ? "bg-core-blue text-white"
+                                    : "bg-gris-ui text-core-blue"
                                     }`}
                             >
                                 {selectedFilters.ubicacion || "Ubicación"}
@@ -159,8 +182,8 @@ export default function Marketplace() {
                             <button
                                 onClick={() => setActiveDropdown(activeDropdown === "roi" ? null : "roi")}
                                 className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${selectedFilters.roi
-                                    ? "bg-[var(--color-core-blue)] text-white"
-                                    : "bg-[var(--color-gris-ui)] text-[var(--color-core-blue)]"
+                                    ? "bg-core-blue text-white"
+                                    : "bg-gris-ui text-core-blue"
                                     }`}
                             >
                                 {selectedFilters.roi ? `ROI ${selectedFilters.roi}` : "ROI"}
@@ -186,8 +209,8 @@ export default function Marketplace() {
                             <button
                                 onClick={() => setActiveDropdown(activeDropdown === "plazo" ? null : "plazo")}
                                 className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${selectedFilters.plazo
-                                    ? "bg-[var(--color-core-blue)] text-white"
-                                    : "bg-[var(--color-gris-ui)] text-[var(--color-core-blue)]"
+                                    ? "bg-core-blue text-white"
+                                    : "bg-gris-ui text-core-blue"
                                     }`}
                             >
                                 {selectedFilters.plazo || "Plazo"}
@@ -211,76 +234,76 @@ export default function Marketplace() {
                 </div>
 
                 {/* Results Header */}
-                <h2 className="mb-4 text-xl font-bold text-[var(--color-black)]">Resultados de búsqueda</h2>
+                <h2 className="mb-4 text-xl font-bold text-black">Resultados de búsqueda</h2>
 
-                {/* Project Grid */}
-                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {/*Filtered Project List */}
+                <div className="flex flex-col gap-4">
                     {filteredProjects.map((project) => (
-                        <div key={project.id} className="group relative overflow-hidden rounded-2xl bg-white shadow-xs transition-shadow hover:shadow-md border border-gray-100">
+                        <div key={project.id} className="group relative overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md border border-gray-100 flex">
                             {/* Close Button */}
                             <button className="absolute right-3 top-3 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-white/80 text-gray-500 backdrop-blur-xs hover:bg-white hover:text-gray-700">
                                 <X className="h-4 w-4" />
                             </button>
 
-                            {/* Image */}
-                            <div className="relative h-48 w-full overflow-hidden">
+                            {/* Image - Left Side */}
+                            <div className="relative w-40 shrink-0 overflow-hidden">
                                 <Image
                                     src={project.image}
-                                    alt={project.name}
+                                    alt={project.nombre}
                                     fill
-                                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                                    className="object-cover"
                                 />
-                                <button className="absolute bottom-3 left-3 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-[var(--color-black)] shadow-xs backdrop-blur-xs hover:bg-white">
+                                <button className="absolute bottom-3 left-3 rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-dark-text shadow-sm backdrop-blur-xs hover:bg-white font-inter">
                                     Ver más
                                 </button>
                             </div>
 
-                            {/* Content */}
-                            <div className="p-4">
-                                <h3 className="mb-1 text-base font-bold text-[var(--color-black)]">{project.name}</h3>
-                                <div className="mb-3 flex items-start gap-1.5 text-xs text-gray-500">
-                                    <MapPin className="mt-0.5 h-3 w-3 shrink-0" />
-                                    <span className="line-clamp-2">{project.location}</span>
+                            {/* Content - Right Side */}
+                            <div className="flex-1 p-4 flex flex-col">
+                                <h3 className="mb-1 text-lg font-semibold text-dark-text font-manrope">{project.nombre}</h3>
+                                <div className="mb-3 flex items-start gap-1.5 text-xs text-light-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" fill="none" className="mt-0.5 shrink-0"><path fill="#555D6D" d="M10.714 5.798a4.69 4.69 0 0 0-4.452-4.452L6.03 1.34a4.69 4.69 0 0 0-4.69 4.69c0 1.447.815 3.006 1.875 4.398 1.023 1.345 2.198 2.433 2.815 2.969.617-.536 1.792-1.624 2.815-2.969 1.06-1.392 1.875-2.951 1.875-4.398l-.006-.232Zm1.346.232c0 1.899-1.04 3.754-2.148 5.21-.983 1.29-2.084 2.352-2.773 2.967l-.268.235a1.34 1.34 0 0 1-.732.293l-.109.005a1.34 1.34 0 0 1-.716-.207l-.09-.062-.035-.029c-.64-.552-1.918-1.727-3.041-3.203C1.04 9.784 0 7.93 0 6.03a6.03 6.03 0 1 1 12.06 0Z" /><path fill="#555D6D" d="M7.372 6.04a1.34 1.34 0 1 0-2.68 0 1.34 1.34 0 0 0 2.68 0Zm1.34 0a2.68 2.68 0 1 1-5.36 0 2.68 2.68 0 0 1 5.36 0Z" /></svg>
+                                    <span className="line-clamp-1 font-inter font-medium">{project.ubicacion}</span>
                                 </div>
 
                                 <div className="mb-3 space-y-1.5">
-                                    <div className="flex items-center gap-2 text-xs">
-                                        <TrendingUp className="h-3.5 w-3.5 text-[var(--color-blue-accent)]" />
-                                        <span className="font-semibold text-[var(--color-black)]">ROI: {project.roi}</span>
+                                    <div className="flex items-center gap-2 text-sm">
+                                        <TrendingUp className="h-4 w-4 text-blue-accent" />
+                                        <span className="font-medium text-dark-text font-inter">ROI: {project.roi}</span>
                                     </div>
-                                    <div className="flex items-center gap-2 text-xs">
-                                        <Tag className="h-3.5 w-3.5 text-[var(--color-blue-accent)]" />
-                                        <span className="text-gray-600">Ticket mínimo: <span className="font-semibold text-[var(--color-black)]">${project.minTicket.toLocaleString()}</span></span>
+                                    <div className="flex items-center gap-2 text-sm">
+                                        <Tag className="h-4 w-4 text-blue-accent" />
+                                        <span className="text-light-text font-inter">Ticket mínimo: <span className="font-semibold text-dark-text">${project.inversionMinima.toLocaleString()}</span></span>
                                     </div>
                                 </div>
 
                                 {/* Status Badge */}
                                 <div className="mb-3">
-                                    <span className="inline-block rounded-md bg-gray-100 px-2 py-1 text-[10px] font-medium text-gray-600">
+                                    <span className="inline-block rounded-md bg-gray-100 px-2.5 py-1 text-xs font-medium text-light-text font-inter">
                                         Estado: {project.status}
                                     </span>
                                 </div>
 
                                 {/* Financing Progress */}
-                                <div className="mb-4">
-                                    <div className="mb-1 flex items-center justify-between text-xs">
-                                        <span className="font-medium text-[var(--color-black)]">Financiado</span>
-                                        <span className="font-bold text-[var(--color-black)]">{project.financedPercentage}%</span>
+                                <div className="mb-4 mt-auto">
+                                    <div className="mb-1.5 flex items-center justify-between text-sm">
+                                        <span className="font-medium text-dark-text font-inter">Financiado</span>
+                                        <span className="font-bold text-dark-text font-manrope">{project.porcentajeFinanciacion}%</span>
                                     </div>
-                                    <div className="h-1.5 w-full overflow-hidden rounded-full bg-gray-100">
+                                    <div className="h-2 w-full overflow-hidden rounded-full bg-gray-100">
                                         <div
-                                            className="h-full rounded-full bg-[var(--color-blue-accent)]"
-                                            style={{ width: `${project.financedPercentage}%` }}
+                                            className="h-full rounded-full bg-blue-accent"
+                                            style={{ width: `${project.porcentajeFinanciacion}%` }}
                                         />
                                     </div>
                                 </div>
 
                                 {/* Actions */}
                                 <div className="flex items-center gap-2">
-                                    <button className="flex-1 rounded-lg bg-[var(--color-core-blue)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-900">
+                                    <Link href={`/proyectos/${project.id}`} className="flex-1 rounded-xl bg-core-blue px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-900 font-manrope">
                                         Invertir
-                                    </button>
-                                    <button className="flex h-9 w-9 items-center justify-center rounded-lg border border-[var(--color-core-blue)] text-[var(--color-core-blue)] transition-colors hover:bg-blue-50">
+                                    </Link>
+                                    <button className="flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-blue-50">
                                         <Bookmark className="h-4 w-4" />
                                     </button>
                                 </div>

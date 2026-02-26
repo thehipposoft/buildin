@@ -36,10 +36,73 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../app/busqueda/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/busqueda">> = Specific
+  const handler = {} as typeof import("../../app/busqueda/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/inversiones/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/inversiones">> = Specific
+  const handler = {} as typeof import("../../app/inversiones/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
   const handler = {} as typeof import("../../app/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/proyectos/[id]/invertir/confirmacion/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/proyectos/[id]/invertir/confirmacion">> = Specific
+  const handler = {} as typeof import("../../app/proyectos/[id]/invertir/confirmacion/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/proyectos/[id]/invertir/monto-inversion/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/proyectos/[id]/invertir/monto-inversion">> = Specific
+  const handler = {} as typeof import("../../app/proyectos/[id]/invertir/monto-inversion/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/proyectos/[id]/invertir/pago-exitoso/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/proyectos/[id]/invertir/pago-exitoso">> = Specific
+  const handler = {} as typeof import("../../app/proyectos/[id]/invertir/pago-exitoso/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/proyectos/[id]/invertir/verificacion-identidad/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/proyectos/[id]/invertir/verificacion-identidad">> = Specific
+  const handler = {} as typeof import("../../app/proyectos/[id]/invertir/verificacion-identidad/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/proyectos/[id]/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/proyectos/[id]">> = Specific
+  const handler = {} as typeof import("../../app/proyectos/[id]/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

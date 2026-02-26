@@ -1,6 +1,13 @@
 {
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/busqueda/page": "app/busqueda/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/inversiones/page": "app/inversiones/page.js",
+  "/page": "app/page.js",
+  "/proyectos/[id]/invertir/confirmacion/page": "app/proyectos/[id]/invertir/confirmacion/page.js",
+  "/proyectos/[id]/invertir/monto-inversion/page": "app/proyectos/[id]/invertir/monto-inversion/page.js",
+  "/proyectos/[id]/invertir/pago-exitoso/page": "app/proyectos/[id]/invertir/pago-exitoso/page.js",
+  "/proyectos/[id]/invertir/verificacion-identidad/page": "app/proyectos/[id]/invertir/verificacion-identidad/page.js",
+  "/proyectos/[id]/page": "app/proyectos/[id]/page.js"
 }

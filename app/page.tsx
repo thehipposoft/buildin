@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <Header />
-      <Marketplace />
+     {/*  <Marketplace /> */}
       <MarketplaceHorizontal />
     </div>
   );
