@@ -32,7 +32,7 @@ export default function PagoExitoso({
         if (onViewPortfolio) {
             onViewPortfolio();
         } else {
-            router.push("/portafolio");
+            router.push("/inversiones");
         }
     }
 

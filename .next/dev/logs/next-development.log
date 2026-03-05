@@ -1,361 +1,95 @@
-[00:00:01.543] Server  LOG     ✓ Ready in 1307ms
-[00:00:04.158] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.471] Server  LOG     projectId "2"
-[00:00:10.781] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.782] Browser LOG     projectId 2
-[00:00:10.782] Browser LOG     projectId 2
-[00:00:10.782] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.782] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.953] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:10.953] Browser WARN    Image with src "/assets/images/proyectos/mirabilia-hype.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:10.953] Browser WARN    Image with src "/assets/images/proyectos/mirabilia-hype.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:01.814] Server  LOG     ✓ Ready in 1561ms
+[00:00:09.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.816] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/mirabilia-hype.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/open-buenavista.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/nomada-parque.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/one-residential-tower.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.816] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:30.991] Browser LOG     projectId 2
+[00:00:30.991] Browser LOG     projectId 2
+[00:00:43.848] Browser LOG     projectId 1
+[00:00:43.848] Browser LOG     projectId 1
+[00:00:48.011] Browser LOG     projectId 1
+[00:00:48.011] Browser LOG     projectId 1
+[00:00:48.918] Browser LOG     projectId 1
+[00:00:48.918] Browser LOG     projectId 1
+[00:00:49.940] Browser LOG     projectId 1
+[00:00:49.940] Browser LOG     projectId 1
+[00:00:50.725] Browser LOG     projectId 1
+[00:00:50.725] Browser LOG     projectId 1
+[00:00:57.614] Browser LOG     projectId 2
+[00:00:57.614] Browser LOG     projectId 2
+[00:01:01.245] Browser LOG     projectId 3
+[00:01:01.245] Browser LOG     projectId 3
+[00:01:06.030] Browser LOG     projectId 4
+[00:01:06.030] Browser LOG     projectId 4
+[00:01:10.710] Browser LOG     projectId 5
+[00:01:10.710] Browser LOG     projectId 5
+[00:04:13.192] Server  LOG     ✓ Compiled in 980ms
+[00:04:15.089] Server  LOG     ✓ Compiled in 39ms
+[00:10:22.898] Server  LOG     ✓ Compiled in 483ms
+[00:10:31.408] Server  LOG     ✓ Compiled in 56ms
+[00:22:42.892] Browser LOG     projectId 1
+[00:22:42.892] Browser LOG     projectId 1
+[00:22:46.532] Browser LOG     projectId 1
+[00:22:46.532] Browser LOG     projectId 1
+[00:22:47.678] Browser LOG     projectId 1
+[00:22:47.678] Browser LOG     projectId 1
+[00:22:49.879] Browser LOG     projectId 1
+[00:22:49.879] Browser LOG     projectId 1
+[00:36:20.338] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:13.958] Server  LOG     projectId "1"
-[00:00:14.260] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.396] Browser LOG     projectId 1
-[00:00:14.396] Browser LOG     projectId 1
-[00:00:14.396] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:36:20.338] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:20.338] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:20.338] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:20.338] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:48.622] Server  LOG     ✓ Compiled in 212ms
+[00:36:54.149] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:54.149] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:54.149] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:54.149] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:38:02.964] Server  LOG     ✓ Compiled in 161ms
+[00:38:03.345] Browser ERROR   uncaughtError: ReferenceError: ESTADO_STYLES is not defined
+[00:38:05.605] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:05.615] Server  LOG     ✓ Compiled in 43ms
+[00:38:07.353] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:07.354] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:07.354] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:07.354] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:38:07.660] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:14.396] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:14.396] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:14.396] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:14.396] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:16.229] Server  LOG     projectId "3"
-[00:00:16.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.359] Browser LOG     projectId 3
-[00:00:16.359] Browser LOG     projectId 3
-[00:00:16.519] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:16.519] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:16.519] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:16.519] Browser WARN    Image with src "/assets/images/proyectos/open-buenavista.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:16.519] Browser WARN    Image with src "/assets/images/proyectos/open-buenavista.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:35.444] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:35.444] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:37.397] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:38.506] Browser LOG     projectId 1
-[00:00:38.506] Browser LOG     projectId 1
-[00:00:41.089] Browser LOG     projectId 1
-[00:00:41.089] Browser LOG     projectId 1
-[00:01:07.618] Server  LOG     ✓ Compiled in 377ms
-[00:01:08.957] Server  LOG     ✓ Compiled in 97ms
-[00:01:10.033] Browser ERROR   ./components/Marketplace/MarketplaceHorizontal.tsx:45:24
-Parsing ecmascript source code failed
-  43 | function ProjectCard({ project }: { project: Project }) {
-  44 |     return (
-> 45 |         <Link href={`${}`} className="relative flex-none w-11/12 md:w-2xs snap-center rounded-xl bg-white shadow-lg border border-gray-100 overflow-hidden last:mr-6">
-     |                        ^
-  46 |             {/* Bookmark Overlay */}
-  47 |             <button className="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white text-core-blue shadow-sm hover:bg-gray-50">
-  48 |                 <Bookmark className="h-4 w-4 fill-none" />
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Marketplace/MarketplaceHorizontal.tsx
-    ./app/page.tsx
-[00:02:02.825] Server  LOG     ✓ Compiled in 90ms
-[00:02:03.028] Browser LOG     projectId 1
-[00:02:03.028] Browser LOG     projectId 1
-[00:02:11.803] Server  LOG     ✓ Compiled in 41ms
-[00:02:15.372] Browser LOG     projectId 1
-[00:02:15.372] Browser LOG     projectId 1
-[00:02:17.921] Browser LOG     projectId 2
-[00:02:17.921] Browser LOG     projectId 2
-[00:02:20.652] Browser LOG     projectId 3
-[00:02:20.652] Browser LOG     projectId 3
-[00:02:24.333] Browser LOG     projectId 4
-[00:02:24.334] Browser LOG     projectId 4
-[00:03:15.580] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:15.580] Browser WARN    Image with src "/assets/images/proyectos/mirabilia-hype.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:15.580] Browser WARN    Image with src "/assets/images/proyectos/nomada-parque.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:15.580] Browser WARN    Image with src "/assets/images/proyectos/one-residential-tower.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:19.216] Browser LOG     projectId 1
-[00:03:19.216] Browser LOG     projectId 1
-[00:03:22.039] Browser LOG     projectId 1
-[00:03:22.039] Browser LOG     projectId 1
-[00:03:51.779] Server  LOG     ✓ Compiled in 54ms
-[00:03:52.910] Server  LOG     ✓ Compiled in 31ms
-[00:03:53.024] Browser ERROR   ./components/Marketplace/index.tsx:303:63
-Parsing ecmascript source code failed
-  301 |                                 {/* Actions */}
-  302 |                                 <div className="flex items-center gap-2">
-> 303 |                                     <Link href={`/proyectos/${}`} className="flex-1 rounded-xl bg-core-blue px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-900 font-manrope">
-      |                                                               ^
-  304 |                                         Invertir
-  305 |                                     </Link>
-  306 |                                     <button className="flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-blue-50">
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/Marketplace/index.tsx [Client Component Browser]
-    ./app/busqueda/page.tsx [Client Component Browser]
-    ./app/busqueda/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Marketplace/index.tsx [Client Component SSR]
-    ./app/busqueda/page.tsx [Client Component SSR]
-    ./app/busqueda/page.tsx [Server Component]
-[00:03:57.030] Browser ERROR   ./components/Marketplace/index.tsx:303:71
-Parsing ecmascript source code failed
-  301 |                                 {/* Actions */}
-  302 |                                 <div className="flex items-center gap-2">
-> 303 |                                     <Link href={`/proyectos/${project.}`} className="flex-1 rounded-xl bg-core-blue px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-900 font-manrope">
-      |                                                                       ^
-  304 |                                         Invertir
-  305 |                                     </Link>
-  306 |                                     <button className="flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-blue-50">
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/Marketplace/index.tsx [Client Component Browser]
-    ./app/busqueda/page.tsx [Client Component Browser]
-    ./app/busqueda/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Marketplace/index.tsx [Client Component SSR]
-    ./app/busqueda/page.tsx [Client Component SSR]
-    ./app/busqueda/page.tsx [Server Component]
-[00:04:03.638] Browser LOG     projectId 1
-[00:04:03.638] Browser LOG     projectId 1
-[00:04:05.896] Browser LOG     projectId 2
-[00:04:05.896] Browser LOG     projectId 2
-[00:04:08.598] Browser LOG     projectId 4
-[00:04:08.598] Browser LOG     projectId 4
-[00:04:22.669] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:23.050] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:23.050] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:23.050] Browser WARN    Image with src "/assets/images/proyectos/mirabilia-hype.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:23.050] Browser WARN    Image with src "/assets/images/proyectos/nomada-parque.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:23.050] Browser WARN    Image with src "/assets/images/proyectos/one-residential-tower.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:23.050] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.050] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.050] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:05:06.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:06.456] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/mirabilia-hype.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/open-buenavista.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/nomada-parque.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.456] Browser WARN    Image with src "/assets/images/proyectos/one-residential-tower.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:06.457] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.617] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:05:10.829] Browser LOG     projectId 1
-[00:05:10.829] Browser LOG     projectId 1
-[00:07:25.908] Server  LOG     ✓ Compiled in 508ms
-[00:07:26.032] Browser LOG     projectId 1
-[00:07:26.032] Browser LOG     projectId 1
-[00:07:33.204] Server  LOG     ✓ Compiled in 26ms
-[00:07:34.050] Browser LOG     projectId 1
-[00:07:34.050] Browser LOG     projectId 1
-[00:07:37.137] Server  LOG     ✓ Compiled in 32ms
-[00:07:37.228] Browser LOG     projectId 1
-[00:07:37.229] Browser LOG     projectId 1
-[00:07:42.175] Server  LOG     ✓ Compiled in 53ms
-[00:07:42.276] Browser LOG     projectId 1
-[00:07:42.276] Browser LOG     projectId 1
-[00:08:07.181] Server  LOG     ✓ Compiled in 54ms
-[00:08:08.037] Browser LOG     projectId 1
-[00:08:08.037] Browser LOG     projectId 1
-[00:08:25.175] Server  LOG     ✓ Compiled in 62ms
-[00:08:25.276] Browser LOG     projectId 1
-[00:08:25.276] Browser LOG     projectId 1
-[00:08:27.926] Server  LOG     projectId "1"
-[00:08:28.308] Browser LOG     projectId 1
-[00:08:28.308] Browser LOG     projectId 1
-[00:08:28.308] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:28.308] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:28.308] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:33.179] Server  LOG     ✓ Compiled in 60ms
-[00:08:33.267] Browser LOG     projectId 1
-[00:08:33.267] Browser LOG     projectId 1
-[00:08:34.572] Server  LOG     projectId "1"
-[00:08:34.924] Browser LOG     projectId 1
-[00:08:34.924] Browser LOG     projectId 1
-[00:08:34.924] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:08:34.924] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:34.924] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:34.924] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:40.160] Server  LOG     ✓ Compiled in 45ms
-[00:08:40.245] Browser LOG     projectId 1
-[00:08:40.245] Browser LOG     projectId 1
-[00:09:04.756] Server  LOG     ✓ Compiled in 52ms
-[00:09:05.036] Browser LOG     projectId 1
-[00:09:05.037] Browser LOG     projectId 1
-[00:09:08.504] Server  LOG     ✓ Compiled in 49ms
-[00:09:09.002] Browser LOG     projectId 1
-[00:09:09.002] Browser LOG     projectId 1
-[00:09:43.673] Server  LOG     ✓ Compiled in 45ms
-[00:09:44.027] Browser LOG     projectId 1
-[00:09:44.028] Browser LOG     projectId 1
-[00:09:50.150] Server  LOG     ✓ Compiled in 52ms
-[00:09:50.237] Browser LOG     projectId 1
-[00:09:50.237] Browser LOG     projectId 1
-[00:10:00.225] Server  LOG     ✓ Compiled in 101ms
-[00:10:00.303] Browser LOG     projectId 1
-[00:10:00.303] Browser LOG     projectId 1
-[00:10:10.167] Server  LOG     ✓ Compiled in 60ms
-[00:10:10.250] Browser LOG     projectId 1
-[00:10:10.250] Browser LOG     projectId 1
-[00:10:22.984] Server  LOG     ✓ Compiled in 26ms
-[00:10:24.029] Browser LOG     projectId 1
-[00:10:24.029] Browser LOG     projectId 1
-[00:10:25.142] Server  LOG     ✓ Compiled in 53ms
-[00:10:25.546] Browser LOG     projectId 1
-[00:10:25.546] Browser LOG     projectId 1
-[00:10:32.164] Server  LOG     ✓ Compiled in 33ms
-[00:10:33.026] Browser LOG     projectId 1
-[00:10:33.026] Browser LOG     projectId 1
-[00:10:37.800] Server  LOG     ✓ Compiled in 43ms
-[00:10:38.034] Browser LOG     projectId 1
-[00:10:38.034] Browser LOG     projectId 1
-[00:10:41.023] Server  LOG     ✓ Compiled in 36ms
-[00:10:41.101] Browser LOG     projectId 1
-[00:10:41.101] Browser LOG     projectId 1
-[00:10:50.390] Server  LOG     ✓ Compiled in 33ms
-[00:10:50.724] Browser LOG     projectId 1
-[00:10:50.724] Browser LOG     projectId 1
-[00:11:01.144] Server  LOG     ✓ Compiled in 41ms
-[00:11:01.230] Browser LOG     projectId 1
-[00:11:01.230] Browser LOG     projectId 1
-[00:11:30.170] Server  LOG     ✓ Compiled in 56ms
-[00:11:30.328] Browser LOG     projectId 1
-[00:11:30.328] Browser LOG     projectId 1
-[00:12:11.806] Server  LOG     ✓ Compiled in 90ms
-[00:12:11.890] Browser LOG     projectId 1
-[00:12:11.890] Browser LOG     projectId 1
-[00:12:50.263] Server  LOG     ✓ Compiled in 165ms
-[00:12:50.355] Browser LOG     projectId 1
-[00:12:50.355] Browser LOG     projectId 1
-[00:12:58.914] Server  LOG     ✓ Compiled in 66ms
-[00:12:59.000] Browser LOG     projectId 1
-[00:12:59.002] Browser LOG     projectId 1
-[00:13:22.633] Server  LOG     ✓ Compiled in 62ms
-[00:13:23.025] Browser LOG     projectId 1
-[00:13:23.025] Browser LOG     projectId 1
-[00:13:33.937] Server  LOG     ✓ Compiled in 51ms
-[00:13:35.036] Browser LOG     projectId 1
-[00:13:35.038] Browser LOG     projectId 1
-[00:14:01.719] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:01.719] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:04.447] Browser LOG     projectId 2
-[00:14:04.447] Browser LOG     projectId 2
-[00:14:16.627] Server  LOG     ✓ Compiled in 40ms
-[00:14:16.713] Browser LOG     projectId 2
-[00:14:16.713] Browser LOG     projectId 2
-[00:14:27.209] Server  LOG     ✓ Compiled in 119ms
-[00:14:27.295] Browser LOG     projectId 2
-[00:14:27.295] Browser LOG     projectId 2
-[00:14:34.491] Browser LOG     projectId 3
-[00:14:34.491] Browser LOG     projectId 3
-[00:15:10.390] Browser LOG     projectId 1
-[00:15:10.390] Browser LOG     projectId 1
-[00:15:21.460] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:15:21.581] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:21.581] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:21.581] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:21.581] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:16:56.130] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:16:56.130] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:56.130] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:56.130] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:56.130] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:16:57.022] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:57.022] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:58.308] Browser LOG     projectId 1
-[00:16:58.308] Browser LOG     projectId 1
-[00:16:58.540] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:44.122] Server  LOG     projectId "1"
-[00:19:44.634] Browser LOG     projectId 1
-[00:19:44.634] Browser LOG     projectId 1
-[00:19:44.637] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:44.637] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:44.637] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:46.711] Server  LOG     projectId "1"
-[00:19:47.241] Browser LOG     projectId 1
-[00:19:47.241] Browser LOG     projectId 1
-[00:19:47.241] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:47.241] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:47.241] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:48.929] Server  LOG     projectId "1"
-[00:19:49.381] Browser LOG     projectId 1
-[00:19:49.381] Browser LOG     projectId 1
-[00:19:49.381] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:49.381] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:49.381] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:21:56.287] Server  LOG     projectId "1"
-[00:21:56.695] Browser LOG     projectId 1
-[00:21:56.695] Browser LOG     projectId 1
-[00:21:56.695] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:21:56.695] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:21:56.695] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:23:14.589] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:23:14.589] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:14.589] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:34.235] Server  LOG     ✓ Compiled in 441ms
-[00:23:34.404] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/assets/images/avatar-example.png" "received" null
-[00:23:36.535] Server  LOG     ✓ Compiled in 36ms
-[00:23:39.144] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:23:39.145] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:39.145] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:20.579] Server  LOG     ✓ Compiled in 275ms
+[00:38:21.972] Server  LOG     ✓ Compiled in 63ms
+[00:38:33.489] Server  LOG     ✓ Compiled in 29ms
+[00:38:54.476] Server  LOG     ✓ Compiled in 44ms
+[00:38:55.172] Browser LOG     projectId 2
+[00:38:55.172] Browser LOG     projectId 2
+[00:38:59.005] Browser LOG     projectId 2
+[00:38:59.005] Browser LOG     projectId 2
+[00:39:01.583] Browser LOG     projectId 1
+[00:39:01.583] Browser LOG     projectId 1
+[00:39:07.410] Browser LOG     projectId 1
+[00:39:07.410] Browser LOG     projectId 1
+[00:41:53.899] Browser LOG     projectId 1
+[00:41:53.899] Browser LOG     projectId 1
+[00:41:57.135] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:57.135] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:57.135] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:57.135] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:57.135] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:57.135] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:57.135] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:57.135] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

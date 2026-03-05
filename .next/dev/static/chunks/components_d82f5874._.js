@@ -304,7 +304,7 @@ function Header({ showSearch = true }) {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "h-12 w-12 relative rounded-full overflow-hidden border border-gray-200",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/avatar-example.png",
+                                            src: "/assets/images/avatar.png",
                                             className: "object-cover",
                                             fill: true,
                                             alt: "User"
@@ -775,19 +775,13 @@ const INVERSIONES = [
 const TOTAL_INVERTIDO = INVERSIONES.reduce(_c = (acc, i)=>acc + i.monto, 0);
 _c1 = TOTAL_INVERTIDO;
 // ── Estado badge ──────────────────────────────────────────────────────────────
-const ESTADO_STYLES = {
-    "En Construcción": "bg-amber-50 text-amber-600",
-    "Financiado": "bg-green-50 text-green-600",
-    "En Evaluación": "bg-purple-50 text-purple-600",
-    "Completado": "bg-gray-100 text-gray-500"
-};
 function EstadoBadge({ estado }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-        className: `inline-block rounded-full px-3 py-0.5 text-xs font-semibold font-inter ${ESTADO_STYLES[estado]}`,
+        className: `inline-block rounded-full px-3 py-0.5 text-xs text-dark-text font-semibold font-inter bg-gris-ui`,
         children: estado
     }, void 0, false, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 66,
+        lineNumber: 60,
         columnNumber: 9
     }, this);
 }
@@ -807,12 +801,12 @@ function ProgressBar({ value }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 81,
+                    lineNumber: 75,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 80,
+                lineNumber: 74,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -823,13 +817,13 @@ function ProgressBar({ value }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 86,
+                lineNumber: 80,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 79,
+        lineNumber: 73,
         columnNumber: 9
     }, this);
 }
@@ -850,7 +844,7 @@ function InversionCard({ item }) {
                         children: item.nombre
                     }, void 0, false, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 104,
+                        lineNumber: 98,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -861,33 +855,33 @@ function InversionCard({ item }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 107,
+                        lineNumber: 101,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 103,
+                lineNumber: 97,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EstadoBadge, {
                 estado: item.estado
             }, void 0, false, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 111,
+                lineNumber: 105,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProgressBar, {
                 value: item.progreso
             }, void 0, false, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 112,
+                lineNumber: 106,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 99,
+        lineNumber: 93,
         columnNumber: 9
     }, this);
 }
@@ -950,7 +944,7 @@ function BottomNav({ active }) {
                             className: "rounded-full bg-white border-t-2 border-gray-200"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 142,
+                            lineNumber: 136,
                             columnNumber: 29
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -958,13 +952,13 @@ function BottomNav({ active }) {
                             children: "Explorar"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 149,
+                            lineNumber: 143,
                             columnNumber: 29
                         }, this)
                     ]
                 }, item.key, true, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 137,
+                    lineNumber: 131,
                     columnNumber: 25
                 }, this);
             }
@@ -978,7 +972,7 @@ function BottomNav({ active }) {
                         strokeWidth: 2
                     }, void 0, false, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 164,
+                        lineNumber: 158,
                         columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -986,19 +980,19 @@ function BottomNav({ active }) {
                         children: item.label
                     }, void 0, false, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 168,
+                        lineNumber: 162,
                         columnNumber: 25
                     }, this)
                 ]
             }, item.key, true, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 158,
+                lineNumber: 152,
                 columnNumber: 21
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 131,
+        lineNumber: 125,
         columnNumber: 9
     }, this);
 }
@@ -1024,7 +1018,7 @@ function Inversiones() {
                             children: "Total Invertido"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 191,
+                            lineNumber: 185,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1041,13 +1035,13 @@ function Inversiones() {
                                     children: "Usd."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 191,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 192,
+                            lineNumber: 186,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1060,7 +1054,7 @@ function Inversiones() {
                                             children: "Proyectos Activos"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Inversiones.tsx",
-                                            lineNumber: 202,
+                                            lineNumber: 196,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1068,13 +1062,13 @@ function Inversiones() {
                                             children: INVERSIONES.length
                                         }, void 0, false, {
                                             fileName: "[project]/components/Inversiones.tsx",
-                                            lineNumber: 203,
+                                            lineNumber: 197,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 201,
+                                    lineNumber: 195,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1083,19 +1077,19 @@ function Inversiones() {
                                     children: "Explorar más"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 207,
+                                    lineNumber: 201,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 200,
+                            lineNumber: 194,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 189,
+                    lineNumber: 183,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1106,7 +1100,7 @@ function Inversiones() {
                             children: "Tus Inversiones"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 218,
+                            lineNumber: 212,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1115,29 +1109,29 @@ function Inversiones() {
                                     item: inv
                                 }, inv.id, false, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 224,
+                                    lineNumber: 218,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 222,
+                            lineNumber: 216,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 217,
+                    lineNumber: 211,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Inversiones.tsx",
-            lineNumber: 186,
+            lineNumber: 180,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 184,
+        lineNumber: 178,
         columnNumber: 9
     }, this);
 }

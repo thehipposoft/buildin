@@ -30,7 +30,7 @@ function PagoExitoso({ onBack, onViewPortfolio, onGoHome }) {
         if (onViewPortfolio) {
             onViewPortfolio();
         } else {
-            router.push("/portafolio");
+            router.push("/inversiones");
         }
     }
     function handleGoHome() {

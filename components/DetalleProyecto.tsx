@@ -70,9 +70,9 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
   // Si no hay desarrollador, mostramos un aviso pero permitimos ver el resto
   if (!desarrollador) {
     return (
-        <div className="min-h-screen flex items-center justify-center">
-            <p>No se encontró la información del desarrollador para {project.nombre}</p>
-        </div>
+      <div className="min-h-screen flex items-center justify-center">
+        <p>No se encontró la información del desarrollador para {project.nombre}</p>
+      </div>
     );
   }
 
@@ -188,6 +188,105 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
           </button>
           <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.resumen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
             <p className="leading-6 text-justify text-base font-inter text-light-text mt-2">{project.resumen}</p>
+          </div>
+        </div>
+
+        {/* HITOS / USO DE FONDOS */}
+        <div className="border-b border-gray-100 py-4">
+          <button onClick={() => toggleSection('hitos')} className="flex items-center justify-between w-full mb-2">
+            <h3 className="text-lg font-manrope text-dark-text font-medium">Hitos / Uso de Fondos</h3>
+            <ArrowIcon isOpen={expandedSections.hitos} />
+          </button>
+          <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.hitos ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+            <div className="space-y-6 mt-4">
+              {[
+                { title: "Adquisición del Terreno", date: "Enero 2023", completed: true },
+                { title: "Estudios de Factibilidad", date: "Marzo 2023", completed: true },
+                { title: "Obtención de Permisos", date: "Junio 2023", completed: true },
+                { title: "Inicio de Obra", date: "Agosto 2023", progress: 80 },
+                { title: "Estructura Terminada", date: "Diciembre 2024", progress: 40 },
+                { title: "Entrega de Unidades", date: "Agosto 2026", progress: 0 },
+              ].map((item, idx) => (
+                <div key={idx} className="relative pl-1 border-l border-gray-100 pb-2 last:pb-0">
+                  <div className="flex justify-between items-start mb-1">
+                    <div>
+                      <h4 className="text-base font-inter text-dark-text">{item.title}</h4>
+                      <p className="text-sm text-light-text font-inter">{item.date}</p>
+                    </div>
+                    {item.completed && (
+                      <div className="mt-1">
+                        <Image src="/assets/images/svg/circle-check-black.svg" width={20} height={20} alt="check" />
+                      </div>
+                    )}
+                  </div>
+                  {item.progress !== undefined && (
+                    <div className="mt-3 flex items-center gap-4">
+                      <div className="flex-1 bg-border-color h-1.5 rounded-full overflow-hidden">
+                        <div className="bg-blue-accent h-full rounded-full" style={{ width: `${item.progress}%` }}></div>
+                      </div>
+                      <span className="text-sm font-inter font-medium text-blue-accent">{item.progress}%</span>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* DOCUMENTOS */}
+        <div className="border-b border-gray-100 py-4">
+          <button onClick={() => toggleSection('documentos')} className="flex items-center justify-between w-full mb-2">
+            <h3 className="text-lg font-manrope text-dark-text font-medium">Documentos</h3>
+            <ArrowIcon isOpen={expandedSections.documentos} />
+          </button>
+          <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.documentos ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+            <div className="space-y-3 mt-4">
+              {[
+                "Contrato de Inversión",
+                "Brochure",
+                "Planos Arquitectónicos"
+              ].map((doc, idx) => (
+                <button key={idx} className="w-full flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <FileText className="h-5 w-5 text-blue-accent" />
+                    <span className="text-sm font-medium text-blue-accent font-inter">{doc}</span>
+                  </div>
+                  <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 9L5 5L1 1" stroke="#0F6EEF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* ACTUALIZACIONES */}
+        <div className="border-b border-gray-100 py-4">
+          <button onClick={() => toggleSection('actualizaciones')} className="flex items-center justify-between w-full mb-2">
+            <h3 className="text-lg font-manrope text-dark-text font-medium">Actualizaciones</h3>
+            <ArrowIcon isOpen={expandedSections.actualizaciones} />
+          </button>
+          <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.actualizaciones ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+            <div className="space-y-6 mt-4">
+              {[
+                {
+                  date: "15 de Mayo, 2024",
+                  title: "Avance Estructural al 40%",
+                  description: "La estructura principal del edificio ha alcanzado el 40% de su construcción, con el tercer piso ya completado. Los trabajos avanzan según el cronograma."
+                },
+                {
+                  date: "20 de Abril, 2024",
+                  title: "Inspección de Seguridad Exitosa",
+                  description: "Una inspección de seguridad exhaustiva fue completada esta semana, confirmando que todas las medidas de seguridad en obra están en cumplimiento con las normativas vigentes."
+                }
+              ].map((update, idx) => (
+                <div key={idx} className="space-y-1">
+                  <p className="text-xs text-light-text font-inter">{update.date}</p>
+                  <h4 className="text-[15px] font-semibold text-dark-text font-inter leading-tight">{update.title}</h4>
+                  <p className="text-sm text-light-text font-inter leading-relaxed text-justify">{update.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

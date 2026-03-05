@@ -54,17 +54,11 @@ const TOTAL_INVERTIDO = INVERSIONES.reduce((acc, i) => acc + i.monto, 0);
 
 // ── Estado badge ──────────────────────────────────────────────────────────────
 
-const ESTADO_STYLES: Record<EstadoProyecto, string> = {
-    "En Construcción": "bg-amber-50 text-amber-600",
-    "Financiado": "bg-green-50 text-green-600",
-    "En Evaluación": "bg-purple-50 text-purple-600",
-    "Completado": "bg-gray-100 text-gray-500",
-};
 
 function EstadoBadge({ estado }: { estado: EstadoProyecto }) {
     return (
         <span
-            className={`inline-block rounded-full px-3 py-0.5 text-xs font-semibold font-inter ${ESTADO_STYLES[estado]}`}
+            className={`inline-block rounded-full px-3 py-0.5 text-xs text-dark-text font-semibold font-inter bg-gris-ui`}
         >
             {estado}
         </span>
