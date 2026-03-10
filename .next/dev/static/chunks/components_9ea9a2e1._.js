@@ -15,6 +15,7 @@ const PROJECTS = [
         id: "1",
         nombre: "Decó Polo",
         image: "/assets/images/proyectos/deco-polo.png",
+        imagenVertical: "/assets/images/proyectos/vertical-1.png",
         logo: "/assets/images/proyectos/abv.png",
         desarrollador: "ABV Arquitectura",
         ubicacion: "Palermo, Buenos Aires",
@@ -40,6 +41,7 @@ const PROJECTS = [
         id: "2",
         nombre: "Mirabilia Hype",
         image: "/assets/images/proyectos/mirabilia-hype.png",
+        imagenVertical: "/assets/images/proyectos/vertical-2.png",
         logo: "/assets/images/proyectos/mirabilia.png",
         desarrollador: "Mirabilia",
         ubicacion: "Chacarita, CABA, Buenos Aires.",
@@ -65,6 +67,7 @@ const PROJECTS = [
         id: "3",
         nombre: "Open Buenavista",
         image: "/assets/images/proyectos/open-buenavista.png",
+        imagenVertical: "/assets/images/proyectos/vertical-3.png",
         logo: "/assets/images/proyectos/portland.png",
         desarrollador: "Portland",
         ubicacion: "Don Francisco y Av. Uruguay, San Fernando, Argentina.",
@@ -90,6 +93,7 @@ const PROJECTS = [
         id: "4",
         nombre: "Nómada Parque",
         image: "/assets/images/proyectos/nomada-parque.png",
+        imagenVertical: "/assets/images/proyectos/vertical-4.png",
         logo: "/assets/images/proyectos/grupo-nomada.png",
         desarrollador: "Grupo Nómada",
         ubicacion: "Nuñez, CABA, Argentina",
@@ -115,6 +119,7 @@ const PROJECTS = [
         id: "5",
         nombre: "One Residential Tower",
         image: "/assets/images/proyectos/one-residential-tower.png",
+        imagenVertical: "/assets/images/proyectos/vertical-5.png",
         logo: "/assets/images/proyectos/tsf.png",
         desarrollador: "TSF Desarrollos",
         ubicacion: "Avenida Maipú, Vicente López, CABA",
@@ -478,7 +483,7 @@ function DetalleProyecto({ projectId }) {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "text-blue-accent font-semibold hover:text-blue-300 ml-1",
+                                        className: "text-black font-semibold underline ml-1",
                                         children: "Ver Mapa"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
@@ -759,7 +764,7 @@ function DetalleProyecto({ projectId }) {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: `overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.desarrollador ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`,
+                                className: `overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.desarrollador ? 'max-h-[450px] opacity-100' : 'max-h-0 opacity-0'}`,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mt-2 text-sm text-gray-600",
                                     children: [

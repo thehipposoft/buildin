@@ -1,13 +1,14 @@
 export type Project = {
     id: string;
     nombre: string;
-    image: string; // URL string for now, will use placeholders
+    image: string;
+    imagenVertical: string; 
     logo: string; // Developer logo
     desarrollador: string,
     ubicacion: string;
     ubicacionType: "CABA" | "Interior" | "Otro";
     roi: string;
-    valorRoi: number; // For filtering if needed
+    valorRoi: number; 
     minTicket: number;
     inversionMinima: number; // New field as requested
     status: "En Construcción" | "Obra - Avanzado" | "Obra - Comienzo" | "Terminado" | "Planificación" | "Pre-venta" | "Construcción";

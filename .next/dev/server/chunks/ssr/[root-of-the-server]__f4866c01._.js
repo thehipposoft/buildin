@@ -39,6 +39,7 @@ const PROJECTS = [
         id: "1",
         nombre: "Decó Polo",
         image: "/assets/images/proyectos/deco-polo.png",
+        imagenVertical: "/assets/images/proyectos/vertical-1.png",
         logo: "/assets/images/proyectos/abv.png",
         desarrollador: "ABV Arquitectura",
         ubicacion: "Palermo, Buenos Aires",
@@ -64,6 +65,7 @@ const PROJECTS = [
         id: "2",
         nombre: "Mirabilia Hype",
         image: "/assets/images/proyectos/mirabilia-hype.png",
+        imagenVertical: "/assets/images/proyectos/vertical-2.png",
         logo: "/assets/images/proyectos/mirabilia.png",
         desarrollador: "Mirabilia",
         ubicacion: "Chacarita, CABA, Buenos Aires.",
@@ -89,6 +91,7 @@ const PROJECTS = [
         id: "3",
         nombre: "Open Buenavista",
         image: "/assets/images/proyectos/open-buenavista.png",
+        imagenVertical: "/assets/images/proyectos/vertical-3.png",
         logo: "/assets/images/proyectos/portland.png",
         desarrollador: "Portland",
         ubicacion: "Don Francisco y Av. Uruguay, San Fernando, Argentina.",
@@ -114,6 +117,7 @@ const PROJECTS = [
         id: "4",
         nombre: "Nómada Parque",
         image: "/assets/images/proyectos/nomada-parque.png",
+        imagenVertical: "/assets/images/proyectos/vertical-4.png",
         logo: "/assets/images/proyectos/grupo-nomada.png",
         desarrollador: "Grupo Nómada",
         ubicacion: "Nuñez, CABA, Argentina",
@@ -139,6 +143,7 @@ const PROJECTS = [
         id: "5",
         nombre: "One Residential Tower",
         image: "/assets/images/proyectos/one-residential-tower.png",
+        imagenVertical: "/assets/images/proyectos/vertical-5.png",
         logo: "/assets/images/proyectos/tsf.png",
         desarrollador: "TSF Desarrollos",
         ubicacion: "Avenida Maipú, Vicente López, CABA",
@@ -1085,7 +1090,7 @@ function Inversiones() {
                     className: "px-4 mt-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "font-manrope font-bold text-dark-text text-lg mb-4",
+                            className: "font-manrope font-medium text-dark-text text-lg mb-4",
                             children: "Tus Inversiones"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",

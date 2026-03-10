@@ -129,7 +129,7 @@ function InversionesPage() {
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 13,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-[10px] text-light-text font-bold",
@@ -137,68 +137,68 @@ function InversionesPage() {
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 14,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inversiones/page.tsx",
                         lineNumber: 12,
-                        columnNumber: 17
+                        columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: `flex flex-col items-center gap-1 p-1`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/assets/images/logo/buildin_icon_blue.png",
+                                src: "/assets/images/svg/ruedagris.svg",
                                 width: 24,
                                 height: 24,
                                 alt: "Soporte"
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 17,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-[10px] text-light-text font-bold",
-                                children: "Inversiones"
+                                children: "Explorar"
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 18,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inversiones/page.tsx",
                         lineNumber: 16,
-                        columnNumber: 17
+                        columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: `flex flex-col items-center gap-1 relative -top-6 border-gray-200 `,
+                        className: `flex flex-col items-center gap-1 relative -top-6 border-gray-200 bg-white rounded-full p-1`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/assets/images/svg/maletin2.svg",
-                                width: 100,
-                                height: 100,
+                                width: 40,
+                                height: 40,
                                 alt: "Buildin",
-                                className: "rounded-full bg-white absolute -top-12 border-t-2 object-cover"
+                                className: "r"
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 21,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-xs text-core-blue font-bold",
-                                children: "Explorar"
+                                children: "Inversiones"
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 22,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inversiones/page.tsx",
                         lineNumber: 20,
-                        columnNumber: 17
+                        columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: `flex flex-col items-center gap-1 p-1`,
@@ -211,7 +211,7 @@ function InversionesPage() {
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 25,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-[10px] text-light-text font-bold",
@@ -219,13 +219,13 @@ function InversionesPage() {
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 26,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inversiones/page.tsx",
                         lineNumber: 24,
-                        columnNumber: 17
+                        columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: `flex flex-col items-center gap-1 p-1`,
@@ -238,7 +238,7 @@ function InversionesPage() {
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 29,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-[10px] text-light-text font-bold",
@@ -246,19 +246,19 @@ function InversionesPage() {
                             }, void 0, false, {
                                 fileName: "[project]/app/inversiones/page.tsx",
                                 lineNumber: 30,
-                                columnNumber: 21
+                                columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inversiones/page.tsx",
                         lineNumber: 28,
-                        columnNumber: 17
+                        columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/inversiones/page.tsx",
                 lineNumber: 11,
-                columnNumber: 13
+                columnNumber: 21
             }, this)
         ]
     }, void 0, true, {
@@ -266,7 +266,30 @@ function InversionesPage() {
         lineNumber: 8,
         columnNumber: 9
     }, this);
-}
+} /*
+            <nav className="fixed bottom-0 left-0 right-0 z-20 flex items-end justify-around border-t border-gray-200 bg-white py-2">
+                <button className={`flex flex-col items-center gap-1 p-1`}>
+                    <Image src={"/assets/images/svg/bookmark.svg"} width={24} height={24} alt="Soporte" />
+                    <span className="text-[10px] text-light-text font-bold">Guardados</span>
+                </button>
+                <button className={`flex flex-col items-center gap-1 p-1`}>
+                    <Image src={"/assets/images/svg/ruedagris.svg"} width={24} height={24} alt="Soporte" />
+                    <span className="text-[10px] text-light-text font-bold">Inversiones</span>
+                </button>
+                <button className={`flex flex-col items-center gap-1 relative -top-8 border-gray-200 bg-black/40 rounded-full`}>
+                    <Image src={"/assets/images/svg/maletin2.svg"} width={40} height={40} alt="Buildin" className="fill-core-blue absolute w-16 h-16"  />
+                    <span className="text-xs text-core-blue font-bold">Explorar</span>
+                </button>
+                <button className={`flex flex-col items-center gap-1 p-1`}>
+                    <Image src={"/assets/images/svg/settings.svg"} width={24} height={24} alt="Soporte" />
+                    <span className="text-[10px] text-light-text font-bold">Configuracion</span>
+                </button>
+                <button className={`flex flex-col items-center gap-1 p-1`}>
+                    <Image src={"/assets/images/svg/soporte.svg"} width={24} height={24} alt="Soporte" />
+                    <span className="text-[10px] text-light-text font-bold">Soporte</span>
+                </button>
+            </nav>
+*/ 
 }),
 "[project]/app/inversiones/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
 

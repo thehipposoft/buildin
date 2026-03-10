@@ -209,7 +209,7 @@ export default function Inversiones() {
 
                 {/* Investment list */}
                 <section className="px-4 mt-6">
-                    <h2 className="font-manrope font-bold text-dark-text text-lg mb-4">
+                    <h2 className="font-manrope font-medium text-dark-text text-lg mb-4">
                         Tus Inversiones
                     </h2>
 

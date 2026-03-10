@@ -69,13 +69,11 @@
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --color-red-500: #fb2c36;
-    --color-amber-50: #fffbeb;
-    --color-amber-600: #dd7400;
+    --color-yellow-50: #fefce8;
     --color-yellow-400: #fac800;
     --color-green-50: #f0fdf4;
     --color-green-400: #05df72;
     --color-green-500: #00c758;
-    --color-green-600: #00a544;
     --color-blue-50: #eff6ff;
     --color-blue-100: #dbeafe;
     --color-blue-200: #bedbff;
@@ -83,8 +81,6 @@
     --color-blue-600: #155dfc;
     --color-blue-700: #1447e6;
     --color-blue-900: #1c398e;
-    --color-purple-50: #faf5ff;
-    --color-purple-600: #9810fa;
     --color-gray-50: #f9fafb;
     --color-gray-100: #f3f4f6;
     --color-gray-200: #e5e7eb;
@@ -142,13 +138,11 @@
   @supports (color: lab(0% 0 0)) {
     :root, :host {
       --color-red-500: lab(55.4814% 75.0732 48.8528);
-      --color-amber-50: lab(98.6252% -.635922 8.42309);
-      --color-amber-600: lab(60.3514% 40.5624 87.1228);
+      --color-yellow-50: lab(98.6846% -1.79055 9.7766);
       --color-yellow-400: lab(83.2664% 8.65132 106.895);
       --color-green-50: lab(98.1563% -5.60117 2.75915);
       --color-green-400: lab(78.503% -64.9265 39.7492);
       --color-green-500: lab(70.5521% -66.5147 45.8073);
-      --color-green-600: lab(59.0978% -58.6621 41.2579);
       --color-blue-50: lab(96.492% -1.14644 -5.11479);
       --color-blue-100: lab(92.0301% -2.24757 -11.6453);
       --color-blue-200: lab(86.15% -4.04379 -21.0797);
@@ -156,8 +150,6 @@
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-blue-700: lab(36.9089% 35.0961 -85.6872);
       --color-blue-900: lab(26.1542% 15.7545 -51.5504);
-      --color-purple-50: lab(97.1627% 2.99937 -4.13398);
-      --color-purple-600: lab(43.0295% 75.21 -86.5669);
       --color-gray-50: lab(98.2596% -.247031 -.706708);
       --color-gray-100: lab(96.1596% -.0823438 -1.13575);
       --color-gray-200: lab(91.6229% -.159115 -2.26791);
@@ -460,8 +452,24 @@
     top: calc(var(--spacing) * -1);
   }
 
+  .-top-2 {
+    top: calc(var(--spacing) * -2);
+  }
+
+  .-top-4 {
+    top: calc(var(--spacing) * -4);
+  }
+
   .-top-6 {
     top: calc(var(--spacing) * -6);
+  }
+
+  .-top-8 {
+    top: calc(var(--spacing) * -8);
+  }
+
+  .-top-10 {
+    top: calc(var(--spacing) * -10);
   }
 
   .-top-12 {
@@ -474,6 +482,10 @@
 
   .top-1\/2 {
     top: 50%;
+  }
+
+  .top-2 {
+    top: calc(var(--spacing) * 2);
   }
 
   .top-3 {
@@ -498,6 +510,10 @@
 
   .right-0 {
     right: calc(var(--spacing) * 0);
+  }
+
+  .right-2 {
+    right: calc(var(--spacing) * 2);
   }
 
   .right-3 {
@@ -699,6 +715,10 @@
     height: calc(var(--spacing) * 12);
   }
 
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
+
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
@@ -735,12 +755,24 @@
     max-height: calc(var(--spacing) * 96);
   }
 
+  .max-h-\[400px\] {
+    max-height: 400px;
+  }
+
+  .max-h-\[450px\] {
+    max-height: 450px;
+  }
+
   .max-h-\[1000px\] {
     max-height: 1000px;
   }
 
   .min-h-screen {
     min-height: 100vh;
+  }
+
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
 
   .w-3 {
@@ -781,6 +813,10 @@
 
   .w-12 {
     width: calc(var(--spacing) * 12);
+  }
+
+  .w-16 {
+    width: calc(var(--spacing) * 16);
   }
 
   .w-20 {
@@ -901,6 +937,10 @@
 
   .justify-center {
     justify-content: center;
+  }
+
+  .justify-end {
+    justify-content: flex-end;
   }
 
   .gap-1 {
@@ -1100,16 +1140,8 @@
     background-color: var(--color-core-blue);
   }
 
-  .bg-\[\#DEE1E6\] {
-    background-color: #dee1e6;
-  }
-
   .bg-\[\#F3F4F6\] {
     background-color: #f3f4f6;
-  }
-
-  .bg-\[F3F4F6\] {
-    background-color: F3F4F6;
   }
 
   .bg-\[var\(--color-core-blue\)\] {
@@ -1120,12 +1152,22 @@
     background-color: var(--color-gris-ui);
   }
 
-  .bg-amber-50 {
-    background-color: var(--color-amber-50);
-  }
-
   .bg-bg-ui {
     background-color: #fafafa;
+  }
+
+  .bg-black {
+    background-color: var(--color-black);
+  }
+
+  .bg-black\/40 {
+    background-color: #0006;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/40 {
+      background-color: color-mix(in oklab, var(--color-black) 40%, transparent);
+    }
   }
 
   .bg-blue-50 {
@@ -1177,10 +1219,6 @@
     background-color: #f4f6fa;
   }
 
-  .bg-purple-50 {
-    background-color: var(--color-purple-50);
-  }
-
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -1229,6 +1267,10 @@
     }
   }
 
+  .bg-yellow-50 {
+    background-color: var(--color-yellow-50);
+  }
+
   .bg-linear-to-l {
     --tw-gradient-position: to left;
   }
@@ -1251,6 +1293,10 @@
   .to-\[\#0f6cef6d\] {
     --tw-gradient-to: #0f6cef6d;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .fill-core-blue {
+    fill: #003087;
   }
 
   .fill-current {
@@ -1395,6 +1441,10 @@
 
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
+  }
+
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
   }
 
   .pt-12 {
@@ -1568,10 +1618,6 @@
     color: var(--color-core-blue);
   }
 
-  .text-amber-600 {
-    color: var(--color-amber-600);
-  }
-
   .text-black {
     color: var(--color-black);
   }
@@ -1634,16 +1680,8 @@
     color: var(--color-green-500);
   }
 
-  .text-green-600 {
-    color: var(--color-green-600);
-  }
-
   .text-light-text {
     color: #555d6d;
-  }
-
-  .text-purple-600 {
-    color: var(--color-purple-600);
   }
 
   .text-red-500 {

@@ -239,16 +239,17 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
                 {/*Filtered Project List */}
                 <div className="flex flex-col gap-4">
                     {filteredProjects.map((project) => (
-                        <div key={project.id} className="group relative overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md border border-gray-100 flex">
+                        <Link href={`/proyectos/${project.id}`} key={project.id} className="group relative overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md border border-gray-100 flex">
                             {/* Close Button */}
-                            <button className="absolute right-3 top-3 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-white/80 text-gray-500 backdrop-blur-xs hover:bg-white hover:text-gray-700">
+                       
+                          {/*   <button className="absolute right-3 top-3 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-white/80 text-gray-500 backdrop-blur-xs hover:bg-white hover:text-gray-700">
                                 <X className="h-4 w-4" />
-                            </button>
+                            </button> */}
 
                             {/* Image - Left Side */}
                             <div className="relative w-40 shrink-0 overflow-hidden">
                                 <Image
-                                    src={project.image}
+                                    src={project.imagenVertical}
                                     alt={project.nombre}
                                     fill
                                     className="object-cover"
@@ -259,10 +260,14 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
                             </div>
 
                             {/* Content - Right Side */}
-                            <div className="flex-1 p-4 flex flex-col">
+                            <div className="flex-1 px-4 pt-8 pb-4 gap-4 flex flex-col relative">
+                                <div className="flex flex-col items-center absolute right-2 top-2">
+                                    <Image src={project.logo} alt={project.desarrollador} width={45} height={45} className="z-20 rounded-full " />
+                                    <Image src={"/assets/images/stars.png"} alt="rating" width={45} height={45} className="" />
+                                </div>
                                 <h3 className="mb-1 text-lg font-semibold text-dark-text font-manrope">{project.nombre}</h3>
-                                <div className="mb-3 flex items-start gap-1.5 text-xs text-light-text">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" fill="none" className="mt-0.5 shrink-0"><path fill="#555D6D" d="M10.714 5.798a4.69 4.69 0 0 0-4.452-4.452L6.03 1.34a4.69 4.69 0 0 0-4.69 4.69c0 1.447.815 3.006 1.875 4.398 1.023 1.345 2.198 2.433 2.815 2.969.617-.536 1.792-1.624 2.815-2.969 1.06-1.392 1.875-2.951 1.875-4.398l-.006-.232Zm1.346.232c0 1.899-1.04 3.754-2.148 5.21-.983 1.29-2.084 2.352-2.773 2.967l-.268.235a1.34 1.34 0 0 1-.732.293l-.109.005a1.34 1.34 0 0 1-.716-.207l-.09-.062-.035-.029c-.64-.552-1.918-1.727-3.041-3.203C1.04 9.784 0 7.93 0 6.03a6.03 6.03 0 1 1 12.06 0Z" /><path fill="#555D6D" d="M7.372 6.04a1.34 1.34 0 1 0-2.68 0 1.34 1.34 0 0 0 2.68 0Zm1.34 0a2.68 2.68 0 1 1-5.36 0 2.68 2.68 0 0 1 5.36 0Z" /></svg>
+                                <div className=" flex items-start gap-1.5 text-xs text-light-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" fill="none" className="mt-0.5 shrink-0"><path fill="#0F6EEF" d="M10.714 5.798a4.69 4.69 0 0 0-4.452-4.452L6.03 1.34a4.69 4.69 0 0 0-4.69 4.69c0 1.447.815 3.006 1.875 4.398 1.023 1.345 2.198 2.433 2.815 2.969.617-.536 1.792-1.624 2.815-2.969 1.06-1.392 1.875-2.951 1.875-4.398l-.006-.232Zm1.346.232c0 1.899-1.04 3.754-2.148 5.21-.983 1.29-2.084 2.352-2.773 2.967l-.268.235a1.34 1.34 0 0 1-.732.293l-.109.005a1.34 1.34 0 0 1-.716-.207l-.09-.062-.035-.029c-.64-.552-1.918-1.727-3.041-3.203C1.04 9.784 0 7.93 0 6.03a6.03 6.03 0 1 1 12.06 0Z" /><path fill="#555D6D" d="M7.372 6.04a1.34 1.34 0 1 0-2.68 0 1.34 1.34 0 0 0 2.68 0Zm1.34 0a2.68 2.68 0 1 1-5.36 0 2.68 2.68 0 0 1 5.36 0Z" /></svg>
                                     <span className="line-clamp-1 font-inter font-medium">{project.ubicacion}</span>
                                 </div>
 
@@ -273,7 +278,7 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
                                     </div>
                                     <div className="flex items-center gap-2 text-sm">
                                         <Tag className="h-4 w-4 text-blue-accent" />
-                                        <span className="text-light-text font-inter">Ticket mínimo: <span className="font-semibold text-dark-text">${project.inversionMinima.toLocaleString()}</span></span>
+                                        <span className="text-dark-text font-medium font-inter">Ticket mínimo: <span className="font-semibold text-dark-text">${project.inversionMinima.toLocaleString()}</span></span>
                                     </div>
                                 </div>
 
@@ -284,8 +289,12 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
                                     </span>
                                 </div>
 
+                                <div>
+                                    <p className="text-sm text-light-text">Desarrolla : {project.desarrollador}</p>
+                                </div>
+
                                 {/* Financing Progress */}
-                                <div className="mb-4 mt-auto">
+                                {/* <div className="mb-4 mt-auto">
                                     <div className="mb-1.5 flex items-center justify-between text-sm">
                                         <span className="font-medium text-dark-text font-inter">Financiado</span>
                                         <span className="font-bold text-dark-text font-manrope">{project.porcentajeFinanciacion}%</span>
@@ -296,19 +305,19 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
                                             style={{ width: `${project.porcentajeFinanciacion}%` }}
                                         />
                                     </div>
-                                </div>
+                                </div> */}
 
                                 {/* Actions */}
-                                <div className="flex items-center gap-2">
-                                    <Link href={`/proyectos/${project.id}`} className="flex-1 rounded-xl bg-core-blue px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-900 font-manrope">
+                                <div className="flex items-center justify-end gap-2">
+{/*                                     <Link href={`/proyectos/${project.id}`} className="flex-1 rounded-xl bg-core-blue px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-900 font-manrope">
                                         Invertir
-                                    </Link>
+                                    </Link> */}
                                     <button className="flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-blue-50">
                                         <Bookmark className="h-4 w-4" />
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             </main>

@@ -112,7 +112,7 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
           <div className="flex items-center text-black/90 ">
             <MapPin className="h-3.5 w-3.5 mr-1" />
             <span className="truncate mr-1">{project.ubicacion}</span>
-            <button className="text-blue-accent font-semibold hover:text-blue-300 ml-1">Ver Mapa</button>
+            <button className="text-black font-semibold underline ml-1">Ver Mapa</button>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
             <h3 className="text-lg font-manrope text-dark-text font-medium">Desarrollador</h3>
             <ArrowIcon isOpen={expandedSections.desarrollador} />
           </button>
-          <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.desarrollador ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+          <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.desarrollador ? 'max-h-[450px] opacity-100' : 'max-h-0 opacity-0'}`}>
             <div className="mt-2 text-sm text-gray-600">
               <div className="flex items-start gap-3 mb-3">
                 <div className="h-12 w-12 rounded-full bg-gray-200 overflow-hidden shrink-0">
