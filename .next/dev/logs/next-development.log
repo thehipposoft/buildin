@@ -1,112 +1,316 @@
-[00:00:01.522] Server  LOG     ✓ Ready in 1287ms
-[00:00:06.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.142] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/mirabilia-hype.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/open-buenavista.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/nomada-parque.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/one-residential-tower.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:06.143] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:06.277] Browser WARN    Image with src "/assets/images/proyectos/deco-polo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:44.914] Server  LOG     ✓ Compiled in 608ms
-[00:02:49.987] Server  LOG     ✓ Compiled in 64ms
-[00:02:50.746] Browser LOG     projectId 1
-[00:02:50.747] Browser LOG     projectId 1
-[00:03:16.102] Server  LOG     ✓ Compiled in 33ms
-[00:03:23.652] Server  LOG     ✓ Compiled in 37ms
-[00:03:27.980] Server  LOG     ✓ Compiled in 50ms
-[00:03:37.040] Browser LOG     projectId 5
-[00:03:37.040] Browser LOG     projectId 5
-[00:06:19.289] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:19.289] Browser WARN    Image with src "/assets/images/proyectos/vertical-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:19.289] Browser WARN    Image with src "/assets/images/proyectos/vertical-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:19.289] Browser WARN    Image with src "/assets/images/proyectos/vertical-3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:19.289] Browser WARN    Image with src "/assets/images/proyectos/vertical-4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:19.289] Browser WARN    Image with src "/assets/images/proyectos/vertical-5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:52.768] Server  LOG     ✓ Compiled in 45ms
-[00:07:53.900] Server  LOG     ✓ Compiled in 25ms
-[00:07:56.509] Server  LOG     ✓ Compiled in 24ms
-[00:16:32.049] Server  LOG     ✓ Compiled in 118ms
-[00:16:32.864] Browser ERROR   uncaughtError: ReferenceError: isBookmarked is not defined
-[00:16:33.465] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:16:33.475] Server  LOG     ✓ Compiled in 35ms
-[00:16:33.748] Server  ERROR   ⨯ ReferenceError: isBookmarked is not defined
-[00:16:34.873] Browser ERROR   uncaughtError: ReferenceError: isBookmarked is not defined
-[00:17:14.273] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:14.281] Server  LOG     ✓ Compiled in 41ms
-[00:17:14.500] Server  ERROR   ⨯ ReferenceError: isBookmarked is not defined
-[00:17:14.860] Browser ERROR   uncaughtError: ReferenceError: isBookmarked is not defined
-[00:19:23.875] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:19:23.875] Server  LOG     ✓ Compiled in 102ms
-[00:19:42.999] Server  LOG     ✓ Compiled in 49ms
-[00:19:49.657] Server  LOG     ✓ Compiled in 37ms
-[00:19:54.819] Server  LOG     ✓ Compiled in 145ms
-[00:19:55.863] Browser ERROR   ./components/Marketplace/index.tsx:315:80
+[00:00:01.406] Server  LOG     ✓ Ready in 1169ms
+[00:00:02.645] Server  WARN    Error: Route "/proyectos/[id]/invertir/monto-inversion" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:03.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:38.959] Server  WARN    Error: Route "/proyectos/[id]/invertir/monto-inversion" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:39.322] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:51.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:57.912] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:01:57.912] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:03:42.361] Server  LOG     ✓ Compiled in 107ms
+[00:03:43.143] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:03:43.143] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:06:19.681] Server  LOG     ✓ Compiled in 337ms
+[00:06:20.151] Browser ERROR   ./components/InvestmentProcess/ConfirmarInversion.tsx:56:16
+Ecmascript file had an error
+  54 | }: ConfirmarInversionProps) {
+  55 |     const router = useRouter();
+> 56 | const { monto, projectId } = useInversionStore()
+     |                ^^^^^^^^^
+  57 |     const buildInFee = Math.round(amount * 0.01);
+  58 |     const partnerFee = Math.round(amount * 0.005);
+  59 |     const total = amount + buildInFee + partnerFee;
+
+the name `projectId` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/InvestmentProcess/ConfirmarInversion.tsx
+    ./app/proyectos/[id]/invertir/confirmacion/page.tsx
+[00:06:22.143] Browser ERROR   ./components/InvestmentProcess/ConfirmarInversion.tsx:56:20
+Ecmascript file had an error
+  54 | }: ConfirmarInversionProps) {
+  55 |     const router = useRouter();
+> 56 |     const { monto, projectId } = useInversionStore()
+     |                    ^^^^^^^^^
+  57 |     const buildInFee = Math.round(amount * 0.01);
+  58 |     const partnerFee = Math.round(amount * 0.005);
+  59 |     const total = amount + buildInFee + partnerFee;
+
+the name `projectId` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/InvestmentProcess/ConfirmarInversion.tsx
+    ./app/proyectos/[id]/invertir/confirmacion/page.tsx
+[00:06:37.236] Server  LOG     ✓ Compiled in 75ms
+[00:06:38.158] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:06:38.158] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:06:38.205] Server  LOG     ✓ Compiled in 34ms
+[00:06:39.155] Browser ERROR   ./components/InvestmentProcess/ConfirmarInversion.tsx:9:1
 Parsing ecmascript source code failed
-  313 |                                 </Link>
-  314 |                                 <div className="flex items-center justify-end gap-2">
-> 315 |                                     <button onClick={() => handleBookmarkClick(.id)} className={`${bookmarkedIds.has(project.id) ? "bg-core-blue text-white" : "bg-white text-core-blue"} relative flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-core-blue`}>
-      |                                                                                ^
-  316 |                                         <Bookmark className="h-4 w-4" />
-  317 |                                     </button>
-  318 |                                 </div>
+   7 | import 
+   8 |
+>  9 | const STEPS = [
+     | ^^^^^
+  10 |     { icon: Tag, label: "Monto de Inversión" },
+  11 |     { icon: IdCard, label: "Verificación de Identidad" },
+  12 |     { icon: Check, label: "Confirmación" },
 
-Expected '</', got '.'
+Expected 'from', got 'const'
 
-Import traces:
-  Client Component Browser:
-    ./components/Marketplace/index.tsx [Client Component Browser]
-    ./app/busqueda/page.tsx [Client Component Browser]
-    ./app/busqueda/page.tsx [Server Component]
+Import trace:
+  Server Component:
+    ./components/InvestmentProcess/ConfirmarInversion.tsx
+    ./app/proyectos/[id]/invertir/confirmacion/page.tsx
+[00:06:44.140] Browser ERROR   ./components/InvestmentProcess/ConfirmarInversion.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import { use }
+   8 |
+>  9 | const STEPS = [
+     | ^^^^^
+  10 |     { icon: Tag, label: "Monto de Inversión" },
+  11 |     { icon: IdCard, label: "Verificación de Identidad" },
+  12 |     { icon: Check, label: "Confirmación" },
 
-  Client Component SSR:
-    ./components/Marketplace/index.tsx [Client Component SSR]
-    ./app/busqueda/page.tsx [Client Component SSR]
-    ./app/busqueda/page.tsx [Server Component]
-[00:19:56.565] Server  LOG     ✓ Compiled in 31ms
-[00:19:57.867] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:57.868] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:57.868] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/vertical-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:57.868] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/vertical-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/vertical-3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/vertical-4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/vertical-5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:57.868] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:58.451] Server  LOG     ✓ Compiled in 31ms
-[00:20:00.175] Server  LOG     ✓ Compiled in 120ms
-[00:20:01.376] Browser WARN    Image with src "/assets/images/proyectos/vertical-1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Expected 'from', got 'const'
+
+Import trace:
+  Server Component:
+    ./components/InvestmentProcess/ConfirmarInversion.tsx
+    ./app/proyectos/[id]/invertir/confirmacion/page.tsx
+[00:06:53.148] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:06:53.148] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:06:53.148] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:06:53.148] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:08:54.052] Browser LOG     projectId 1
+[00:08:54.052] Browser LOG     projectId 1
+[00:08:54.174] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:54.174] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:54.175] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:56.325] Server  LOG     projectId "1"
+[00:08:56.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:56.850] Browser LOG     projectId 1
+[00:08:56.850] Browser LOG     projectId 1
+[00:08:56.850] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:56.850] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:56.850] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:53.801] Server  LOG     ✓ Compiled in 345ms
+[00:09:56.909] Server  LOG     ✓ Compiled in 48ms
+[00:10:40.724] Server  LOG     ✓ Compiled in 454ms
+[00:10:55.440] Server  LOG     ✓ Compiled in 344ms
+[00:10:57.243] Server  LOG     ✓ Compiled in 43ms
+[00:10:58.919] Server  LOG     ✓ Compiled in 46ms
+[00:11:03.239] Server  LOG     ✓ Compiled in 48ms
+[00:11:31.821] Server  LOG     ✓ Compiled in 73ms
+[00:11:32.143] Browser ERROR   ./components/DetalleProyecto.tsx:318:11
+Parsing ecmascript source code failed
+  316 |       <div className="p-4 bg-white border-t border-gray-100 md:max-w-md md:mx-auto z-50">
+  317 |         <button{
+> 318 |           onClick={() => router.push(`/proyectos/${projectId}/invertir/monto-inversion`)}}
+      |           ^^^^^^^
+  319 |           className="w-full bg-blue-accent text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-blue-200 hover:bg-blue-700 transition-colors"
+  320 |         >
+  321 |           Invertir
+
+Expected '</', got 'onClick'
+
+Import trace:
+  Server Component:
+    ./components/DetalleProyecto.tsx
+    ./app/proyectos/[id]/page.tsx
+[00:11:34.135] Server  LOG     ✓ Compiled in 62ms
+[00:11:48.631] Server  LOG     ✓ Compiled in 48ms
+[00:11:49.146] Browser ERROR   ./components/DetalleProyecto.tsx:320:13
+Parsing ecmascript source code failed
+  318 |           onClick={() => 
+  319 |             setProjectId(params.id)
+> 320 |             router.push(`/proyectos/${projectId}/invertir/monto-inversion`)}
+      |             ^^^^^^
+  321 |           className="w-full bg-blue-accent text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-blue-200 hover:bg-blue-700 transition-colors"
+  322 |         >
+  323 |           Invertir
+
+Expected '</', got 'router'
+
+Import trace:
+  Server Component:
+    ./components/DetalleProyecto.tsx
+    ./app/proyectos/[id]/page.tsx
+[00:11:50.559] Server  LOG     ✓ Compiled in 42ms
+[00:11:51.144] Browser ERROR   ./components/DetalleProyecto.tsx:319:13
+Parsing ecmascript source code failed
+  317 |         <button
+  318 |           onClick={() => {}
+> 319 |             setProjectId(params.id)
+      |             ^^^^^^^^^^^^
+  320 |             router.push(`/proyectos/${projectId}/invertir/monto-inversion`)}
+  321 |           className="w-full bg-blue-accent text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-blue-200 hover:bg-blue-700 transition-colors"
+  322 |         >
+
+Expected '</', got 'setProjectId'
+
+Import trace:
+  Server Component:
+    ./components/DetalleProyecto.tsx
+    ./app/proyectos/[id]/page.tsx
+[00:11:56.418] Server  LOG     ✓ Compiled in 53ms
+[00:11:57.910] Server  LOG     ✓ Compiled in 34ms
+[00:11:59.803] Server  LOG     ✓ Compiled in 60ms
+[00:12:20.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:23.894] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:23.894] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:23.894] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:32.492] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:12:32.492] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:12:54.151] Browser LOG     CURRENT undefined
+[00:12:54.151] Browser LOG     CURRENT undefined
+[00:12:55.141] Browser LOG     CURRENT undefined
+[00:12:55.141] Browser LOG     CURRENT undefined
+[00:12:57.140] Browser LOG     CURRENT undefined
+[00:12:57.140] Browser LOG     CURRENT undefined
+[00:13:06.965] Server  LOG     ✓ Compiled in 72ms
+[00:13:07.140] Browser ERROR   ./components/InvestmentProcess/ConfirmarInversion.tsx:56:13
+Ecmascript file had an error
+  54 | }: ConfirmarInversionProps) {
+  55 |     const router = useRouter();
+> 56 |     const { projectId } = useInversionStore()
+     |             ^^^^^^^^^
+  57 |     const buildInFee = Math.round(amount * 0.01);
+  58 |     const partnerFee = Math.round(amount * 0.005);
+  59 |     const total = amount + buildInFee + partnerFee;
+
+the name `projectId` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/InvestmentProcess/ConfirmarInversion.tsx
+    ./app/proyectos/[id]/invertir/confirmacion/page.tsx
+[00:13:09.852] Server  LOG     ✓ Compiled in 66ms
+[00:13:10.140] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:13:10.140] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:13:10.140] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:13:10.140] Browser LOG     CURRENT {"brochure":"https://abv.com.ar/proyectos/deco-polo/","desarrollador":"ABV Arquitectura","id":"1","image":"/assets/images/proyectos/deco-polo.png","imagenVertical":"/assets/images/proyectos/vertical-1.png","inversionMinima":100,"logo":"/assets/images/proyectos/abv.png","minTicket":120000,"montoGestionado":"+ $50M gestionados.","nombre":"Decó Polo","plazo":36,"porcentajeFinanciacion":20,"proyectosCompletados":5,"resumen":"Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.","risk":"Bajo","roi":"12-15% Anual","stars":4.5,"status":"Pre-venta","tags":["Pre-venta","Riesgo: Bajo"],"ubicacion":"Palermo, Buenos Aires","ubicacionType":"CABA","valorRoi":15}
+[00:13:15.717] Server  LOG     CURRENT undefined
+[00:13:16.043] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:16.043] Browser LOG     CURRENT undefined
+[00:13:16.043] Browser LOG     CURRENT undefined
+[00:14:04.608] Browser LOG     CURRENT undefined
+[00:14:04.608] Browser LOG     CURRENT undefined
+[00:14:15.073] Server  LOG     ✓ Compiled in 89ms
+[00:14:15.140] Browser ERROR   uncaughtError: ReferenceError: amount is not defined
+[00:14:35.612] Server  LOG     ✓ Compiled in 97ms
+[00:14:36.142] Browser ERROR   ./components/InvestmentProcess/ConfirmarInversion.tsx:55:13
+Ecmascript file had an error
+  53 |     const router = useRouter();
+  54 |     const { projectId } = useInversionStore()
+> 55 |     const { projectId, monto } = useInversionStore()
+     |             ^^^^^^^^^
+  56 |     const buildInFee = Math.round(amount * 0.01);
+  57 |     const partnerFee = Math.round(amount * 0.005);
+  58 |     const total = amount + buildInFee + partnerFee;
+
+the name `projectId` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/InvestmentProcess/ConfirmarInversion.tsx
+    ./app/proyectos/[id]/invertir/confirmacion/page.tsx
+[00:14:37.208] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:37.219] Server  LOG     ✓ Compiled in 58ms
+[00:14:37.449] Server  ERROR   ⨯ ReferenceError: amount is not defined
+[00:14:37.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:38.151] Browser ERROR   uncaughtError: ReferenceError: amount is not defined
+[00:14:40.981] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:40.996] Server  LOG     ✓ Compiled in 83ms
+[00:14:41.205] Server  LOG     CURRENT undefined
+[00:14:41.223] Server  ERROR   ⨯ ReferenceError: amount is not defined
+[00:14:41.426] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:42.156] Browser LOG     CURRENT undefined
+[00:14:42.156] Browser LOG     CURRENT undefined
+[00:14:42.156] Browser ERROR   uncaughtError: ReferenceError: amount is not defined
+[00:14:53.536] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:53.541] Server  LOG     ✓ Compiled in 43ms
+[00:14:53.686] Server  LOG     CURRENT undefined
+[00:14:53.862] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:54.141] Browser LOG     CURRENT undefined
+[00:14:54.141] Browser LOG     CURRENT undefined
+[00:14:56.695] Server  LOG     CURRENT undefined
+[00:14:56.898] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:56.899] Browser LOG     CURRENT undefined
+[00:14:56.899] Browser LOG     CURRENT undefined
+[00:15:03.080] Browser LOG     CURRENT undefined
+[00:15:03.080] Browser LOG     CURRENT undefined
+[00:15:18.804] Server  LOG     ✓ Compiled in 31ms
+[00:15:19.139] Browser LOG     CURRENT undefined
+[00:15:19.140] Browser LOG     CURRENT undefined
+[00:15:20.963] Server  LOG     ✓ Compiled in 16ms
+[00:15:21.139] Browser LOG     CURRENT undefined
+[00:15:21.139] Browser LOG     CURRENT undefined
+[00:15:27.078] Server  LOG     ✓ Compiled in 46ms
+[00:15:27.170] Browser LOG     CURRENT undefined
+[00:15:27.170] Browser LOG     CURRENT undefined
+[00:15:29.141] Server  LOG     CURRENT undefined
+[00:15:29.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:29.405] Browser LOG     CURRENT undefined
+[00:15:29.405] Browser LOG     CURRENT undefined
+[00:15:36.760] Browser LOG     CURRENT undefined
+[00:15:36.760] Browser LOG     CURRENT undefined
+[00:15:41.914] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.914] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.914] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:52.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:52.827] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/vertical-1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:15:52.827] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:52.827] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:52.827] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:52.827] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:46.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:46.501] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:20:04.246] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:04.246] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:04.246] Browser WARN    Image with src "/avatar-example.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/vertical-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:04.246] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/vertical-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/vertical-3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/vertical-4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/vertical-5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:20:04.246] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:46.502] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:46.502] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:46.502] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:46.502] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:01.704] Server  LOG     ✓ Compiled in 457ms
+[00:26:04.277] Server  LOG     ✓ Compiled in 54ms
+[00:26:06.596] Server  LOG     ✓ Compiled in 59ms
+[00:26:08.386] Server  LOG     ✓ Compiled in 28ms
+[00:26:09.521] Server  LOG     ✓ Compiled in 18ms
+[00:26:14.147] Server  LOG     ✓ Compiled in 26ms
+[00:26:28.339] Server  LOG     ✓ Compiled in 30ms
+[00:26:36.493] Server  LOG     ✓ Compiled in 41ms
+[00:26:46.840] Server  LOG     ✓ Compiled in 36ms
+[00:26:53.448] Server  LOG     ✓ Compiled in 42ms
+[00:26:56.772] Server  LOG     ✓ Compiled in 36ms
+[00:26:57.140] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 4
+[00:27:00.104] Server  LOG     ✓ Compiled in 33ms
+[00:27:01.942] Server  LOG     ✓ Compiled in 31ms
+[00:27:10.899] Server  LOG     ✓ Compiled in 41ms
+[00:27:13.428] Server  LOG     ✓ Compiled in 94ms
+[00:27:17.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:17.188] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:27:17.188] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/campana.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:17.188] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/bookmark.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:17.188] Browser WARN    Image with src "/assets/images/logo/logo_blue.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:17.188] Browser WARN    Image with src "/assets/images/avatar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:25.339] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/maletin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/estadistica.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/roi.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "/assets/images/stars.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "/assets/images/proyectos/abv.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "/assets/images/proyectos/tsf.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "/assets/images/proyectos/mirabilia.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "/assets/images/proyectos/portland.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:25.339] Browser WARN    Image with src "/assets/images/proyectos/grupo-nomada.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

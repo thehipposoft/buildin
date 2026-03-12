@@ -22,31 +22,38 @@ interface InversionItem {
 const INVERSIONES: InversionItem[] = [
     {
         id: "1",
-        nombre: "Residencial San Martín",
+        nombre: "Decó Polo",
         monto: 10000,
         estado: "En Construcción",
         progreso: 75,
     },
     {
         id: "2",
-        nombre: "Torre Central Business",
+        nombre: "Mirabilia Hype",
         monto: 25000,
         estado: "Financiado",
         progreso: 100,
     },
     {
         id: "3",
-        nombre: "Complejo Nordelta Villas",
+        nombre: "Open Buenavista",
         monto: 5000,
         estado: "En Evaluación",
         progreso: 20,
     },
     {
         id: "4",
-        nombre: "Lofts Palermo Soho",
+        nombre: "Nómada Parque",
         monto: 5230,
         estado: "En Construcción",
         progreso: 40,
+    },
+    {
+        id: "5",
+        nombre: "One Residential Tower",
+        monto: 2050,
+        estado: "En Construcción",
+        progreso: 60,
     },
 ];
 
@@ -222,7 +229,7 @@ export default function Inversiones() {
             </main>
 
             {/* ── Bottom nav ── */}
-           {/*  <BottomNav active="inversiones" /> */}
+            {/*  <BottomNav active="inversiones" /> */}
         </div>
     );
 }

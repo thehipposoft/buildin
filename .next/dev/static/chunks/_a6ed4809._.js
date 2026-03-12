@@ -82,9 +82,9 @@ function StepIndicator({ activeStep }) {
 _c = StepIndicator;
 // ── Quick-select amounts ──────────────────────────────────────────────────────
 const QUICK_AMOUNTS = [
-    100,
     250,
-    500
+    500,
+    1000
 ];
 // ── Fees (static in this mockup) ─────────────────────────────────────────────
 const BUILDIN_FEE = 5;

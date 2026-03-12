@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { ArrowLeft, Tag, IdCard, Check } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { useInversionStore } from "../store/useInversionStore";
 
 // ── Step indicator ────────────────────────────────────────────────────────────
 
@@ -51,7 +52,7 @@ function StepIndicator({ activeStep }: { activeStep: number }) {
 
 // ── Quick-select amounts ──────────────────────────────────────────────────────
 
-const QUICK_AMOUNTS = [100, 250, 500];
+const QUICK_AMOUNTS = [250, 500, 1000];
 
 // ── Fees (static in this mockup) ─────────────────────────────────────────────
 
@@ -62,14 +63,17 @@ const ESTIMATED_ROI = "12-15%";
 // ── Main component ────────────────────────────────────────────────────────────
 
 interface MontoInversionProps {
+    projectId: string | number;
     onBack?: () => void;
     onContinue?: (amount: number) => void;
 }
 
 export default function MontoInversion({
+    projectId,
     onBack,
     onContinue,
 }: MontoInversionProps) {
+    const setMonto = useInversionStore((state) => state.setMonto)
     const router = useRouter();
     const [rawValue, setRawValue] = useState<string>("");
     const [accepted, setAccepted] = useState(false);
@@ -223,7 +227,13 @@ export default function MontoInversion({
             {/* ── Footer CTA ── */}
             <div className="sticky bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-100">
                 <button
-                    onClick={() => { if (canContinue) { onContinue?.(numericAmount); router.push('/proyectos/1/invertir/verificacion-identidad'); } }}
+                    onClick={() => {
+                        if (canContinue) {
+                            setMonto(numericAmount)
+                            onContinue?.(numericAmount);
+                            router.push(`/proyectos/${projectId}/invertir/verificacion-identidad`);
+                        }
+                    }}
                     disabled={!canContinue}
                     className={`w-full rounded-2xl py-4 font-manrope font-semibold text-white text-base transition-all ${canContinue
                         ? "bg-blue-accent shadow-lg shadow-blue-200 hover:bg-blue-600 active:scale-95"

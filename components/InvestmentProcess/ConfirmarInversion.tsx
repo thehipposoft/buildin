@@ -3,8 +3,8 @@
 import React from "react";
 import { ArrowLeft, Tag, IdCard, Check } from "lucide-react";
 import { useRouter } from "next/navigation";
-
-// ── Step indicator ────────────────────────────────────────────────────────────
+import { PROJECTS } from "../Marketplace/constants";
+import { useInversionStore } from "../store/useInversionStore";
 
 const STEPS = [
     { icon: Tag, label: "Monto de Inversión" },
@@ -12,8 +12,6 @@ const STEPS = [
     { icon: Check, label: "Confirmación" },
 ];
 
-
-// ── Summary row helper ────────────────────────────────────────────────────────
 
 function SummaryRow({
     label,
@@ -44,20 +42,19 @@ interface ConfirmarInversionProps {
     onConfirm?: () => void;
     /** Investment amount in USD, defaults to 10 000 for mockup */
     amount?: number;
+    projectId?: string;
     projectName?: string;
 }
 
 export default function ConfirmarInversion({
     onBack,
     onConfirm,
-    amount = 10000,
-    projectName = "Residencia del Sol",
 }: ConfirmarInversionProps) {
     const router = useRouter();
-
-    const buildInFee = Math.round(amount * 0.01);
-    const partnerFee = Math.round(amount * 0.005);
-    const total = amount + buildInFee + partnerFee;
+    const { projectId, monto } = useInversionStore()
+    const buildInFee = Math.round(monto * 0.01);
+    const partnerFee = Math.round(monto * 0.005);
+    const total = monto + buildInFee + partnerFee;
 
     function handleBack() {
         if (onBack) {
@@ -72,9 +69,13 @@ export default function ConfirmarInversion({
             onConfirm();
         } else {
             // TODO: navigate to success screen
-            router.push("/proyectos/1/invertir/pago-exitoso");
+            router.push(`/proyectos/${projectId}/invertir/pago-exitoso`);
         }
     }
+
+    const project = PROJECTS.find(p => p.id === projectId)
+
+    console.log("CURRENT", project)
 
     return (
         <div className="min-h-screen bg-white flex flex-col max-w-md mx-auto shadow-2xl font-sans">
@@ -147,7 +148,7 @@ export default function ConfirmarInversion({
                         Resumen de Inversión
                     </h2>
                     <p className="font-manrope font-semibold text-dark-text text-sm mt-1">
-                        Proyecto &lsquo;{projectName}&rsquo;
+                        Proyecto &lsquo;{project?.nombre}&rsquo;
                     </p>
                     <p className="font-inter text-sm text-light-text mt-0.5">
                         Revisa los detalles antes de confirmar.
@@ -159,7 +160,7 @@ export default function ConfirmarInversion({
                     {/* Monto */}
                     <SummaryRow
                         label="Monto de Inversión"
-                        value={`$${amount.toLocaleString("en-US")} USD`}
+                        value={`$${monto.toLocaleString("es-AR")} USD`}
                         valueBold
                     />
                     <div className="border-t border-gray-200" />
@@ -167,14 +168,14 @@ export default function ConfirmarInversion({
                     {/* Comisión BuildIn */}
                     <SummaryRow
                         label="Comisión BuildIn"
-                        value={`$${buildInFee.toLocaleString("en-US")} USD (1%)`}
+                        value={`$${buildInFee.toLocaleString("es-AR")} USD (1%)`}
                     />
                     <div className="border-t border-gray-200" />
 
                     {/* Comisión Socio */}
                     <SummaryRow
                         label="Comisión Socio"
-                        value={`$${partnerFee.toLocaleString("en-US")} USD (0.5%)`}
+                        value={`$${partnerFee.toLocaleString("es-AR")} USD (0.5%)`}
                     />
                     <div className="border-t border-gray-200" />
 

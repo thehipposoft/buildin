@@ -267,12 +267,12 @@ const ArrowIcon = ({ isOpen })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module_
             d: "M8.236.196a.67.67 0 1 1 .948.948l-4.02 4.02a.67.67 0 0 1-.948 0l-4.02-4.02-.046-.051A.67.67 0 0 1 1.093.15l.05.046L4.69 3.743 8.236.196Z"
         }, void 0, false, {
             fileName: "[project]/components/DetalleProyecto.tsx",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/DetalleProyecto.tsx",
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c = ArrowIcon;
@@ -289,11 +289,7 @@ const FILES = [
 function DetalleProyecto({ projectId }) {
     _s();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
-    console.log("projectId", projectId);
-    // 1. Buscamos el proyecto usando la prop 'projectId'
-    // Usamos String() en ambos lados para evitar errores de tipo
     const project = __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Marketplace$2f$constants$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PROJECTS"].find((p)=>String(p.id) === String(projectId));
-    // 2. Si el proyecto no existe, mostramos un estado de error simple
     if (!project) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "min-h-screen flex items-center justify-center",
@@ -306,12 +302,12 @@ function DetalleProyecto({ projectId }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/DetalleProyecto.tsx",
-                lineNumber: 55,
+                lineNumber: 52,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/DetalleProyecto.tsx",
-            lineNumber: 54,
+            lineNumber: 51,
             columnNumber: 7
         }, this);
     }
@@ -342,12 +338,12 @@ function DetalleProyecto({ projectId }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/DetalleProyecto.tsx",
-                lineNumber: 85,
+                lineNumber: 82,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/DetalleProyecto.tsx",
-            lineNumber: 84,
+            lineNumber: 81,
             columnNumber: 7
         }, this);
     }
@@ -365,7 +361,7 @@ function DetalleProyecto({ projectId }) {
                                 className: "h-5 w-5 mr-2"
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 95,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -373,13 +369,13 @@ function DetalleProyecto({ projectId }) {
                                 children: "Detalle del Proyecto"
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 96,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 94,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -394,12 +390,12 @@ function DetalleProyecto({ projectId }) {
                                     alt: "User"
                                 }, void 0, false, {
                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 99,
+                                lineNumber: 96,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -410,7 +406,7 @@ function DetalleProyecto({ projectId }) {
                                         children: "2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 100,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -420,25 +416,25 @@ function DetalleProyecto({ projectId }) {
                                         height: 20
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 101,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 102,
+                                lineNumber: 99,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 98,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/DetalleProyecto.tsx",
-                lineNumber: 93,
+                lineNumber: 90,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -451,7 +447,7 @@ function DetalleProyecto({ projectId }) {
                         className: "object-cover rounded-t-2xl"
                     }, void 0, false, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 111,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -460,12 +456,12 @@ function DetalleProyecto({ projectId }) {
                             className: "h-5 w-5"
                         }, void 0, false, {
                             fileName: "[project]/components/DetalleProyecto.tsx",
-                            lineNumber: 118,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 117,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -476,7 +472,7 @@ function DetalleProyecto({ projectId }) {
                                 children: project.nombre
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 122,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -486,7 +482,7 @@ function DetalleProyecto({ projectId }) {
                                         className: "h-3.5 w-3.5 mr-1"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 121,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -494,7 +490,7 @@ function DetalleProyecto({ projectId }) {
                                         children: project.ubicacion
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 122,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -502,25 +498,25 @@ function DetalleProyecto({ projectId }) {
                                         children: "Ver Mapa"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 123,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 123,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 121,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/DetalleProyecto.tsx",
-                lineNumber: 110,
+                lineNumber: 107,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -534,7 +530,7 @@ function DetalleProyecto({ projectId }) {
                                 children: "Métricas Clave"
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 135,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -552,12 +548,12 @@ function DetalleProyecto({ projectId }) {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 139,
+                                                            lineNumber: 136,
                                                             columnNumber: 73
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 136,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -565,13 +561,13 @@ function DetalleProyecto({ projectId }) {
                                                         children: "ROI Objetivo"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 140,
+                                                        lineNumber: 137,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 135,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -579,13 +575,13 @@ function DetalleProyecto({ projectId }) {
                                                 children: project.roi
                                             }, void 0, false, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 142,
+                                                lineNumber: 139,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 134,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -600,12 +596,12 @@ function DetalleProyecto({ projectId }) {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 143,
                                                             columnNumber: 73
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 143,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -613,13 +609,13 @@ function DetalleProyecto({ projectId }) {
                                                         children: "Plazo Estimado"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 144,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 142,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -630,13 +626,13 @@ function DetalleProyecto({ projectId }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 146,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 141,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -651,12 +647,12 @@ function DetalleProyecto({ projectId }) {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 153,
+                                                            lineNumber: 150,
                                                             columnNumber: 73
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 150,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -664,13 +660,13 @@ function DetalleProyecto({ projectId }) {
                                                         children: "Inversión Mínima"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 154,
+                                                        lineNumber: 151,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 149,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -681,13 +677,13 @@ function DetalleProyecto({ projectId }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 153,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 148,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -702,12 +698,12 @@ function DetalleProyecto({ projectId }) {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 160,
+                                                            lineNumber: 157,
                                                             columnNumber: 73
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 160,
+                                                        lineNumber: 157,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -715,13 +711,13 @@ function DetalleProyecto({ projectId }) {
                                                         children: "Riesgo"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 158,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 156,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -729,25 +725,25 @@ function DetalleProyecto({ projectId }) {
                                                 children: project.risk || "Moderado"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 160,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 155,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 136,
+                                lineNumber: 133,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 134,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -762,20 +758,20 @@ function DetalleProyecto({ projectId }) {
                                         children: "Desarrollador"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 168,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {
                                         isOpen: expandedSections.desarrollador
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 169,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 170,
+                                lineNumber: 167,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -796,12 +792,12 @@ function DetalleProyecto({ projectId }) {
                                                         className: "object-cover h-full w-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 178,
+                                                        lineNumber: 175,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 177,
+                                                    lineNumber: 174,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -818,12 +814,12 @@ function DetalleProyecto({ projectId }) {
                                                                     children: "★"
                                                                 }, i, false, {
                                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                                    lineNumber: 182,
+                                                                    lineNumber: 179,
                                                                     columnNumber: 44
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 181,
+                                                            lineNumber: 178,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -835,7 +831,7 @@ function DetalleProyecto({ projectId }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 184,
+                                                            lineNumber: 181,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -846,19 +842,19 @@ function DetalleProyecto({ projectId }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 185,
+                                                            lineNumber: 182,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 177,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 173,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -866,7 +862,7 @@ function DetalleProyecto({ projectId }) {
                                             children: desarrollador.nombre
                                         }, void 0, false, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 188,
+                                            lineNumber: 185,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -874,24 +870,24 @@ function DetalleProyecto({ projectId }) {
                                             children: desarrollador.descripcion
                                         }, void 0, false, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 189,
+                                            lineNumber: 186,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 174,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 169,
+                        lineNumber: 166,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -906,20 +902,20 @@ function DetalleProyecto({ projectId }) {
                                         children: "Resumen"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 197,
+                                        lineNumber: 194,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {
                                         isOpen: expandedSections.resumen
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 198,
+                                        lineNumber: 195,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 196,
+                                lineNumber: 193,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -929,18 +925,18 @@ function DetalleProyecto({ projectId }) {
                                     children: project.resumen
                                 }, void 0, false, {
                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                    lineNumber: 201,
+                                    lineNumber: 198,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 200,
+                                lineNumber: 197,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 195,
+                        lineNumber: 192,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -955,20 +951,20 @@ function DetalleProyecto({ projectId }) {
                                         children: "Hitos / Uso de Fondos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 208,
+                                        lineNumber: 205,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {
                                         isOpen: expandedSections.hitos
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 209,
+                                        lineNumber: 206,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 207,
+                                lineNumber: 204,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1019,7 +1015,7 @@ function DetalleProyecto({ projectId }) {
                                                                     children: item.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                                    lineNumber: 224,
+                                                                    lineNumber: 221,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1027,13 +1023,13 @@ function DetalleProyecto({ projectId }) {
                                                                     children: item.date
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                                    lineNumber: 225,
+                                                                    lineNumber: 222,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 223,
+                                                            lineNumber: 220,
                                                             columnNumber: 21
                                                         }, this),
                                                         item.completed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1045,18 +1041,18 @@ function DetalleProyecto({ projectId }) {
                                                                 alt: "check"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                                lineNumber: 229,
+                                                                lineNumber: 226,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 228,
+                                                            lineNumber: 225,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 219,
                                                     columnNumber: 19
                                                 }, this),
                                                 item.progress !== undefined && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1071,12 +1067,12 @@ function DetalleProyecto({ projectId }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                                                lineNumber: 236,
+                                                                lineNumber: 233,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 232,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1087,35 +1083,35 @@ function DetalleProyecto({ projectId }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 235,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 234,
+                                                    lineNumber: 231,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, idx, true, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 218,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                    lineNumber: 212,
+                                    lineNumber: 209,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 211,
+                                lineNumber: 208,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 206,
+                        lineNumber: 203,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1130,20 +1126,20 @@ function DetalleProyecto({ projectId }) {
                                         children: "Documentos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 247,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {
                                         isOpen: expandedSections.documentos
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 251,
+                                        lineNumber: 248,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 249,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1161,7 +1157,7 @@ function DetalleProyecto({ projectId }) {
                                                             className: "h-5 w-5 text-blue-accent"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 257,
+                                                            lineNumber: 254,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1169,13 +1165,13 @@ function DetalleProyecto({ projectId }) {
                                                             children: "Contrato de Inversión"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 258,
+                                                            lineNumber: 255,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 256,
+                                                    lineNumber: 253,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1192,18 +1188,18 @@ function DetalleProyecto({ projectId }) {
                                                         strokeLinejoin: "round"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 261,
+                                                        lineNumber: 258,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 260,
+                                                    lineNumber: 257,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 255,
+                                            lineNumber: 252,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1219,7 +1215,7 @@ function DetalleProyecto({ projectId }) {
                                                             className: "h-5 w-5 text-blue-accent"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 266,
+                                                            lineNumber: 263,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1227,13 +1223,13 @@ function DetalleProyecto({ projectId }) {
                                                             children: "Brochure"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 267,
+                                                            lineNumber: 264,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 265,
+                                                    lineNumber: 262,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1250,18 +1246,18 @@ function DetalleProyecto({ projectId }) {
                                                         strokeLinejoin: "round"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 270,
+                                                        lineNumber: 267,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 269,
+                                                    lineNumber: 266,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 264,
+                                            lineNumber: 261,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1274,7 +1270,7 @@ function DetalleProyecto({ projectId }) {
                                                             className: "h-5 w-5 text-blue-accent"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 275,
+                                                            lineNumber: 272,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1282,13 +1278,13 @@ function DetalleProyecto({ projectId }) {
                                                             children: "Planos Arquitectónicos"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                                            lineNumber: 276,
+                                                            lineNumber: 273,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 274,
+                                                    lineNumber: 271,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1305,35 +1301,35 @@ function DetalleProyecto({ projectId }) {
                                                         strokeLinejoin: "round"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                                        lineNumber: 279,
+                                                        lineNumber: 276,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 275,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 273,
+                                            lineNumber: 270,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                    lineNumber: 254,
+                                    lineNumber: 251,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 253,
+                                lineNumber: 250,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 248,
+                        lineNumber: 245,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1348,20 +1344,20 @@ function DetalleProyecto({ projectId }) {
                                         children: "Actualizaciones"
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 289,
+                                        lineNumber: 286,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {
                                         isOpen: expandedSections.actualizaciones
                                     }, void 0, false, {
                                         fileName: "[project]/components/DetalleProyecto.tsx",
-                                        lineNumber: 290,
+                                        lineNumber: 287,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 288,
+                                lineNumber: 285,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1387,7 +1383,7 @@ function DetalleProyecto({ projectId }) {
                                                     children: update.date
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 307,
+                                                    lineNumber: 304,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1395,7 +1391,7 @@ function DetalleProyecto({ projectId }) {
                                                     children: update.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 308,
+                                                    lineNumber: 305,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1403,35 +1399,35 @@ function DetalleProyecto({ projectId }) {
                                                     children: update.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                                    lineNumber: 309,
+                                                    lineNumber: 306,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, idx, true, {
                                             fileName: "[project]/components/DetalleProyecto.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 303,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/DetalleProyecto.tsx",
-                                    lineNumber: 293,
+                                    lineNumber: 290,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/DetalleProyecto.tsx",
-                                lineNumber: 292,
+                                lineNumber: 289,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/DetalleProyecto.tsx",
-                        lineNumber: 287,
+                        lineNumber: 284,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/DetalleProyecto.tsx",
-                lineNumber: 132,
+                lineNumber: 129,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1442,18 +1438,18 @@ function DetalleProyecto({ projectId }) {
                     children: "Invertir"
                 }, void 0, false, {
                     fileName: "[project]/components/DetalleProyecto.tsx",
-                    lineNumber: 319,
+                    lineNumber: 316,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/DetalleProyecto.tsx",
-                lineNumber: 318,
+                lineNumber: 315,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/DetalleProyecto.tsx",
-        lineNumber: 91,
+        lineNumber: 88,
         columnNumber: 5
     }, this);
 }

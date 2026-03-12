@@ -35,7 +35,8 @@ const PROJECTS = [
         proyectosCompletados: 5,
         montoGestionado: "+ $50M gestionados.",
         stars: 4.5,
-        resumen: "Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad."
+        resumen: "Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.",
+        brochure: "https://abv.com.ar/proyectos/deco-polo/"
     },
     {
         id: "2",
@@ -61,7 +62,8 @@ const PROJECTS = [
         proyectosCompletados: 17,
         montoGestionado: "+ $50M gestionados.",
         stars: 4.5,
-        resumen: "Un nuevo complejo residencial que fusiona naturaleza y modernidad en un equilibrio perfecto. Mirabilia Hype ofrece amenities exclusivos: 4 piscinas climatizadas, un gimnasio equipado con la tecnología más avanzada, espacio polideportivo cubierto, sectores para la relajación y una renovada oferta gastronómica. Cuenta con 4.000m2 de pulmón verde, el complejo ofrece unidades de 1, 2, 3 y 4 dormitorios, con superficies que van desde los 55 m² hasta los 285 m², adaptándose a diferentes estilos de vida."
+        resumen: "Un nuevo complejo residencial que fusiona naturaleza y modernidad en un equilibrio perfecto. Mirabilia Hype ofrece amenities exclusivos: 4 piscinas climatizadas, un gimnasio equipado con la tecnología más avanzada, espacio polideportivo cubierto, sectores para la relajación y una renovada oferta gastronómica. Cuenta con 4.000m2 de pulmón verde, el complejo ofrece unidades de 1, 2, 3 y 4 dormitorios, con superficies que van desde los 55 m² hasta los 285 m², adaptándose a diferentes estilos de vida.",
+        brochure: "https://mirabiliahype.com/wp-content/uploads/2025/10/Brochure_M_Hype_2025_dig.pdf"
     },
     {
         id: "3",
@@ -87,7 +89,8 @@ const PROJECTS = [
         proyectosCompletados: 17,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "Ubicado en un punto estratégico de Acceso Norte y rodeado de comercios, deporte, gastronomía y servicios. OPEN Buenavista te permite moverte fácil, trabajar con comodidad y disfrutar cada momento con más libertad. Un proyecto de cuatro edificios, PB + 8 pisos, con unidades de categoría de 2, 3 y 4 ambientes. Superficies amplias y balcones aterrazados que amplían la experiencia de vivir adentro y afuera. OPEN propone un estilo de vida auténtico, flexible y lleno de posibilidades."
+        resumen: "Ubicado en un punto estratégico de Acceso Norte y rodeado de comercios, deporte, gastronomía y servicios. OPEN Buenavista te permite moverte fácil, trabajar con comodidad y disfrutar cada momento con más libertad. Un proyecto de cuatro edificios, PB + 8 pisos, con unidades de categoría de 2, 3 y 4 ambientes. Superficies amplias y balcones aterrazados que amplían la experiencia de vivir adentro y afuera. OPEN propone un estilo de vida auténtico, flexible y lleno de posibilidades.",
+        brochure: "https://drive.google.com/file/d/1D5nkyWjlVQ9pNowLO39CNBt_KnuqSrGo/view"
     },
     {
         id: "4",
@@ -113,7 +116,8 @@ const PROJECTS = [
         proyectosCompletados: 13,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "Más de 20.000 m² destinados a la construcción de un novedoso proyecto en Parque de Innovación, en el barrio de Núñez, una de las zonas más distinguidas de la Ciudad Autónoma de Buenos Aires. Este desarrollo residencial presenta más de 750 m² dedicados a locales comerciales y gastronómicos, terraza con espejo de agua y vegetación, y más de 400 m² de amenities. ✓ Parking comercial✓ 3 subsuelos de cocheras✓ Propuesta de servicios y experiencias a través de nuestro programa ALDEA®"
+        resumen: "Más de 20.000 m² destinados a la construcción de un novedoso proyecto en Parque de Innovación, en el barrio de Núñez, una de las zonas más distinguidas de la Ciudad Autónoma de Buenos Aires. Este desarrollo residencial presenta más de 750 m² dedicados a locales comerciales y gastronómicos, terraza con espejo de agua y vegetación, y más de 400 m² de amenities. ✓ Parking comercial✓ 3 subsuelos de cocheras✓ Propuesta de servicios y experiencias a través de nuestro programa ALDEA®",
+        brochure: "https://grupoportland.com/wp-content/uploads/2023/06/Brochure-Nova-impreso-06.pdf"
     },
     {
         id: "5",
@@ -139,7 +143,8 @@ const PROJECTS = [
         proyectosCompletados: 13,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "One Residential Tower es un excepcional desarrollo inmobiliario ubicado estraté-gicamente en un lote de 1200 m2 en el corredor de la avenida Maipú en Vicente López. Este proyecto se destaca por ofre-cer 90 unidades de 2 y 3 ambientes, que varían en tamaño de 55 a 93 m2. Cada unidad ha sido cuidadosamente diseñada para ofrecer una experiencia de vida premium. ONE Residential Tower se alza en Vicente López, rodeado de áreas verdes y a solo unas cuadras del Río de la Plata, con vistas panorámicas y la serenidad de este entorno único."
+        resumen: "One Residential Tower es un excepcional desarrollo inmobiliario ubicado estraté-gicamente en un lote de 1200 m2 en el corredor de la avenida Maipú en Vicente López. Este proyecto se destaca por ofre-cer 90 unidades de 2 y 3 ambientes, que varían en tamaño de 55 a 93 m2. Cada unidad ha sido cuidadosamente diseñada para ofrecer una experiencia de vida premium. ONE Residential Tower se alza en Vicente López, rodeado de áreas verdes y a solo unas cuadras del Río de la Plata, con vistas panorámicas y la serenidad de este entorno único.",
+        brochure: "https://tsfdesarrollos.com/wp-content/uploads/2023/10/One-Brochure.pdf"
     }
 ];
 const FILTER_OPTIONS = {
@@ -750,31 +755,38 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 const INVERSIONES = [
     {
         id: "1",
-        nombre: "Residencial San Martín",
+        nombre: "Decó Polo",
         monto: 10000,
         estado: "En Construcción",
         progreso: 75
     },
     {
         id: "2",
-        nombre: "Torre Central Business",
+        nombre: "Mirabilia Hype",
         monto: 25000,
         estado: "Financiado",
         progreso: 100
     },
     {
         id: "3",
-        nombre: "Complejo Nordelta Villas",
+        nombre: "Open Buenavista",
         monto: 5000,
         estado: "En Evaluación",
         progreso: 20
     },
     {
         id: "4",
-        nombre: "Lofts Palermo Soho",
+        nombre: "Nómada Parque",
         monto: 5230,
         estado: "En Construcción",
         progreso: 40
+    },
+    {
+        id: "5",
+        nombre: "One Residential Tower",
+        monto: 2050,
+        estado: "En Construcción",
+        progreso: 60
     }
 ];
 const TOTAL_INVERTIDO = INVERSIONES.reduce(_c = (acc, i)=>acc + i.monto, 0);
@@ -786,7 +798,7 @@ function EstadoBadge({ estado }) {
         children: estado
     }, void 0, false, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 60,
+        lineNumber: 67,
         columnNumber: 9
     }, this);
 }
@@ -806,12 +818,12 @@ function ProgressBar({ value }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 75,
+                    lineNumber: 82,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 74,
+                lineNumber: 81,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -822,13 +834,13 @@ function ProgressBar({ value }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 80,
+                lineNumber: 87,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 73,
+        lineNumber: 80,
         columnNumber: 9
     }, this);
 }
@@ -849,7 +861,7 @@ function InversionCard({ item }) {
                         children: item.nombre
                     }, void 0, false, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 98,
+                        lineNumber: 105,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -860,33 +872,33 @@ function InversionCard({ item }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 101,
+                        lineNumber: 108,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 97,
+                lineNumber: 104,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EstadoBadge, {
                 estado: item.estado
             }, void 0, false, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 105,
+                lineNumber: 112,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProgressBar, {
                 value: item.progreso
             }, void 0, false, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 106,
+                lineNumber: 113,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 93,
+        lineNumber: 100,
         columnNumber: 9
     }, this);
 }
@@ -949,7 +961,7 @@ function BottomNav({ active }) {
                             className: "rounded-full bg-white border-t-2 border-gray-200"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 136,
+                            lineNumber: 143,
                             columnNumber: 29
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -957,13 +969,13 @@ function BottomNav({ active }) {
                             children: "Explorar"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 143,
+                            lineNumber: 150,
                             columnNumber: 29
                         }, this)
                     ]
                 }, item.key, true, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 131,
+                    lineNumber: 138,
                     columnNumber: 25
                 }, this);
             }
@@ -977,7 +989,7 @@ function BottomNav({ active }) {
                         strokeWidth: 2
                     }, void 0, false, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 158,
+                        lineNumber: 165,
                         columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -985,19 +997,19 @@ function BottomNav({ active }) {
                         children: item.label
                     }, void 0, false, {
                         fileName: "[project]/components/Inversiones.tsx",
-                        lineNumber: 162,
+                        lineNumber: 169,
                         columnNumber: 25
                     }, this)
                 ]
             }, item.key, true, {
                 fileName: "[project]/components/Inversiones.tsx",
-                lineNumber: 152,
+                lineNumber: 159,
                 columnNumber: 21
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 125,
+        lineNumber: 132,
         columnNumber: 9
     }, this);
 }
@@ -1023,7 +1035,7 @@ function Inversiones() {
                             children: "Total Invertido"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 185,
+                            lineNumber: 192,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1040,13 +1052,13 @@ function Inversiones() {
                                     children: "Usd."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 191,
+                                    lineNumber: 198,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 186,
+                            lineNumber: 193,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1059,7 +1071,7 @@ function Inversiones() {
                                             children: "Proyectos Activos"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Inversiones.tsx",
-                                            lineNumber: 196,
+                                            lineNumber: 203,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1067,13 +1079,13 @@ function Inversiones() {
                                             children: INVERSIONES.length
                                         }, void 0, false, {
                                             fileName: "[project]/components/Inversiones.tsx",
-                                            lineNumber: 197,
+                                            lineNumber: 204,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 202,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1082,19 +1094,19 @@ function Inversiones() {
                                     children: "Explorar más"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 201,
+                                    lineNumber: 208,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 194,
+                            lineNumber: 201,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 183,
+                    lineNumber: 190,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1105,7 +1117,7 @@ function Inversiones() {
                             children: "Tus Inversiones"
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 212,
+                            lineNumber: 219,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1114,29 +1126,29 @@ function Inversiones() {
                                     item: inv
                                 }, inv.id, false, {
                                     fileName: "[project]/components/Inversiones.tsx",
-                                    lineNumber: 218,
+                                    lineNumber: 225,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Inversiones.tsx",
-                            lineNumber: 216,
+                            lineNumber: 223,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Inversiones.tsx",
-                    lineNumber: 211,
+                    lineNumber: 218,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Inversiones.tsx",
-            lineNumber: 180,
+            lineNumber: 187,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Inversiones.tsx",
-        lineNumber: 178,
+        lineNumber: 185,
         columnNumber: 9
     }, this);
 }

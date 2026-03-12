@@ -17,6 +17,7 @@ import { PROJECTS } from "./Marketplace/constants";
 import { DESARROLLADORES } from "./Marketplace/constants";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useInversionStore } from "./store/useInversionStore";
 
 const ArrowIcon = ({ isOpen }: { isOpen: boolean }) => (
   <svg
@@ -43,12 +44,9 @@ const FILES = [
 
 export default function DetalleProyecto({ projectId }: { projectId: string }) {
   const router = useRouter();
-  console.log("projectId", projectId);
-  // 1. Buscamos el proyecto usando la prop 'projectId'
-  // Usamos String() en ambos lados para evitar errores de tipo
   const project = PROJECTS.find(p => String(p.id) === String(projectId));
-
-  // 2. Si el proyecto no existe, mostramos un estado de error simple
+  const setProjectId = useInversionStore((state) => state.setProjectId);
+  
   if (!project) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -317,7 +315,10 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
       {/* FOOTER BUTTON */}
       <div className="p-4 bg-white border-t border-gray-100 md:max-w-md md:mx-auto z-50">
         <button
-          onClick={() => router.push(`/proyectos/${projectId}/invertir/monto-inversion`)}
+          onClick={() => {
+            setProjectId(projectId)
+            router.push(`/proyectos/${projectId}/invertir/monto-inversion`)
+          }}
           className="w-full bg-blue-accent text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-blue-200 hover:bg-blue-700 transition-colors"
         >
           Invertir
