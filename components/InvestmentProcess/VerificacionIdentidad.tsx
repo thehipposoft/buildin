@@ -167,7 +167,7 @@ export default function VerificacionIdentidad({
                             Tu seguridad es nuestra prioridad
                         </span>
                     </div>
-                    <p className="font-inter text-sm text-light-text leading-relaxed text-justify">
+                    <p className="font-inter text-sm text-light-text leading-relaxed">
                         Para proteger tu inversión y cumplir con las regulaciones,
                         necesitamos verificar tu identidad. Este proceso es gestionado
                         por un socio regulado y BuildIn nunca almacena tus documentos

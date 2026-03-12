@@ -4,16 +4,13 @@ import React, { useState, useMemo, useEffect } from "react";
 import Image from "next/image";
 import {
     Search,
-    MapPin,
     TrendingUp,
     Tag,
     Filter,
     Bookmark,
-    X,
     ChevronDown
 } from "lucide-react";
 import { PROJECTS, FILTER_OPTIONS } from "./constants";
-import { Project } from "@/types";
 import Link from "next/link";
 
 interface MarketplaceProps {
@@ -40,6 +37,15 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
         plazo: initialFilters.plazo || null,
     });
 
+    const [bookmarkedIds, setBookmarkedIds] = useState<Set<number>>(new Set());
+
+    const handleBookmarkClick = (id: number) => {
+        setBookmarkedIds((prev) => {
+            const next = new Set(prev);
+            next.has(id) ? next.delete(id) : next.add(id);
+            return next;
+        });
+};
     // Update filters when initial values change
     useEffect(() => {
         setSearchQuery(initialSearchQuery);
@@ -238,8 +244,8 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
 
                 {/*Filtered Project List */}
                 <div className="flex flex-col gap-4">
-                    {filteredProjects.map((project) => (
-                        <Link href={`/proyectos/${project.id}`} key={project.id} className="group relative overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md border border-gray-100 flex">
+                    {filteredProjects.map((project, index) => (
+                        <div key={index} className="group relative overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md border border-gray-100 flex">
                             {/* Close Button */}
                        
                           {/*   <button className="absolute right-3 top-3 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-white/80 text-gray-500 backdrop-blur-xs hover:bg-white hover:text-gray-700">
@@ -247,20 +253,18 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
                             </button> */}
 
                             {/* Image - Left Side */}
-                            <div className="relative w-40 shrink-0 overflow-hidden">
+                            <Link href={`/proyectos/${project.id}`}  className="relative w-40 shrink-0 overflow-hidden">
                                 <Image
                                     src={project.imagenVertical}
                                     alt={project.nombre}
                                     fill
                                     className="object-cover"
                                 />
-                                <button className="absolute bottom-3 left-3 rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-dark-text shadow-sm backdrop-blur-xs hover:bg-white font-inter">
-                                    Ver más
-                                </button>
-                            </div>
+                            </Link>
 
                             {/* Content - Right Side */}
-                            <div className="flex-1 px-4 pt-8 pb-4 gap-4 flex flex-col relative">
+                            <div  className="flex-1 px-4 pt-16 pb-4 gap-4 flex flex-col relative">
+                            <Link href={`/proyectos/${project.id}`}>
                                 <div className="flex flex-col items-center absolute right-2 top-2">
                                     <Image src={project.logo} alt={project.desarrollador} width={45} height={45} className="z-20 rounded-full " />
                                     <Image src={"/assets/images/stars.png"} alt="rating" width={45} height={45} className="" />
@@ -306,18 +310,14 @@ export default function Marketplace({ initialSearchQuery = "", initialFilters = 
                                         />
                                     </div>
                                 </div> */}
-
-                                {/* Actions */}
+                                </Link>
                                 <div className="flex items-center justify-end gap-2">
-{/*                                     <Link href={`/proyectos/${project.id}`} className="flex-1 rounded-xl bg-core-blue px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-900 font-manrope">
-                                        Invertir
-                                    </Link> */}
-                                    <button className="flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-blue-50">
+                                    <button onClick={() => handleBookmarkClick(index)} className={`${bookmarkedIds.has(index) ? "bg-core-blue text-white" : "bg-white text-core-blue"} relative flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-core-blue`}>
                                         <Bookmark className="h-4 w-4" />
                                     </button>
                                 </div>
                             </div>
-                        </Link>
+                        </div>
                     ))}
                 </div>
             </main>

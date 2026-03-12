@@ -20,4 +20,5 @@ export type Project = {
     montoGestionado: string;
     stars: number;
     resumen: string;
+    brochure: string;
 }

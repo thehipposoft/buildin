@@ -41,7 +41,8 @@ const PROJECTS = [
         proyectosCompletados: 5,
         montoGestionado: "+ $50M gestionados.",
         stars: 4.5,
-        resumen: "Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad."
+        resumen: "Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.",
+        brochure: "https://abv.com.ar/proyectos/deco-polo/"
     },
     {
         id: "2",
@@ -67,7 +68,8 @@ const PROJECTS = [
         proyectosCompletados: 17,
         montoGestionado: "+ $50M gestionados.",
         stars: 4.5,
-        resumen: "Un nuevo complejo residencial que fusiona naturaleza y modernidad en un equilibrio perfecto. Mirabilia Hype ofrece amenities exclusivos: 4 piscinas climatizadas, un gimnasio equipado con la tecnología más avanzada, espacio polideportivo cubierto, sectores para la relajación y una renovada oferta gastronómica. Cuenta con 4.000m2 de pulmón verde, el complejo ofrece unidades de 1, 2, 3 y 4 dormitorios, con superficies que van desde los 55 m² hasta los 285 m², adaptándose a diferentes estilos de vida."
+        resumen: "Un nuevo complejo residencial que fusiona naturaleza y modernidad en un equilibrio perfecto. Mirabilia Hype ofrece amenities exclusivos: 4 piscinas climatizadas, un gimnasio equipado con la tecnología más avanzada, espacio polideportivo cubierto, sectores para la relajación y una renovada oferta gastronómica. Cuenta con 4.000m2 de pulmón verde, el complejo ofrece unidades de 1, 2, 3 y 4 dormitorios, con superficies que van desde los 55 m² hasta los 285 m², adaptándose a diferentes estilos de vida.",
+        brochure: "https://mirabiliahype.com/wp-content/uploads/2025/10/Brochure_M_Hype_2025_dig.pdf"
     },
     {
         id: "3",
@@ -93,7 +95,8 @@ const PROJECTS = [
         proyectosCompletados: 17,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "Ubicado en un punto estratégico de Acceso Norte y rodeado de comercios, deporte, gastronomía y servicios. OPEN Buenavista te permite moverte fácil, trabajar con comodidad y disfrutar cada momento con más libertad. Un proyecto de cuatro edificios, PB + 8 pisos, con unidades de categoría de 2, 3 y 4 ambientes. Superficies amplias y balcones aterrazados que amplían la experiencia de vivir adentro y afuera. OPEN propone un estilo de vida auténtico, flexible y lleno de posibilidades."
+        resumen: "Ubicado en un punto estratégico de Acceso Norte y rodeado de comercios, deporte, gastronomía y servicios. OPEN Buenavista te permite moverte fácil, trabajar con comodidad y disfrutar cada momento con más libertad. Un proyecto de cuatro edificios, PB + 8 pisos, con unidades de categoría de 2, 3 y 4 ambientes. Superficies amplias y balcones aterrazados que amplían la experiencia de vivir adentro y afuera. OPEN propone un estilo de vida auténtico, flexible y lleno de posibilidades.",
+        brochure: "https://drive.google.com/file/d/1D5nkyWjlVQ9pNowLO39CNBt_KnuqSrGo/view"
     },
     {
         id: "4",
@@ -119,7 +122,8 @@ const PROJECTS = [
         proyectosCompletados: 13,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "Más de 20.000 m² destinados a la construcción de un novedoso proyecto en Parque de Innovación, en el barrio de Núñez, una de las zonas más distinguidas de la Ciudad Autónoma de Buenos Aires. Este desarrollo residencial presenta más de 750 m² dedicados a locales comerciales y gastronómicos, terraza con espejo de agua y vegetación, y más de 400 m² de amenities. ✓ Parking comercial✓ 3 subsuelos de cocheras✓ Propuesta de servicios y experiencias a través de nuestro programa ALDEA®"
+        resumen: "Más de 20.000 m² destinados a la construcción de un novedoso proyecto en Parque de Innovación, en el barrio de Núñez, una de las zonas más distinguidas de la Ciudad Autónoma de Buenos Aires. Este desarrollo residencial presenta más de 750 m² dedicados a locales comerciales y gastronómicos, terraza con espejo de agua y vegetación, y más de 400 m² de amenities. ✓ Parking comercial✓ 3 subsuelos de cocheras✓ Propuesta de servicios y experiencias a través de nuestro programa ALDEA®",
+        brochure: "https://grupoportland.com/wp-content/uploads/2023/06/Brochure-Nova-impreso-06.pdf"
     },
     {
         id: "5",
@@ -145,7 +149,8 @@ const PROJECTS = [
         proyectosCompletados: 13,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "One Residential Tower es un excepcional desarrollo inmobiliario ubicado estraté-gicamente en un lote de 1200 m2 en el corredor de la avenida Maipú en Vicente López. Este proyecto se destaca por ofre-cer 90 unidades de 2 y 3 ambientes, que varían en tamaño de 55 a 93 m2. Cada unidad ha sido cuidadosamente diseñada para ofrecer una experiencia de vida premium. ONE Residential Tower se alza en Vicente López, rodeado de áreas verdes y a solo unas cuadras del Río de la Plata, con vistas panorámicas y la serenidad de este entorno único."
+        resumen: "One Residential Tower es un excepcional desarrollo inmobiliario ubicado estraté-gicamente en un lote de 1200 m2 en el corredor de la avenida Maipú en Vicente López. Este proyecto se destaca por ofre-cer 90 unidades de 2 y 3 ambientes, que varían en tamaño de 55 a 93 m2. Cada unidad ha sido cuidadosamente diseñada para ofrecer una experiencia de vida premium. ONE Residential Tower se alza en Vicente López, rodeado de áreas verdes y a solo unas cuadras del Río de la Plata, con vistas panorámicas y la serenidad de este entorno único.",
+        brochure: "https://tsfdesarrollos.com/wp-content/uploads/2023/10/One-Brochure.pdf"
     }
 ];
 const FILTER_OPTIONS = {
@@ -609,6 +614,7 @@ function ProjectCard({ project }) {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
+                                        className: "min-w-3",
                                         width: "13",
                                         height: "15",
                                         fill: "none",
@@ -619,7 +625,7 @@ function ProjectCard({ project }) {
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Marketplace/MarketplaceHorizontal.tsx",
                                                 lineNumber: 80,
-                                                columnNumber: 100
+                                                columnNumber: 120
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 fill: "#555D6D",
@@ -627,7 +633,7 @@ function ProjectCard({ project }) {
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Marketplace/MarketplaceHorizontal.tsx",
                                                 lineNumber: 80,
-                                                columnNumber: 600
+                                                columnNumber: 620
                                             }, this)
                                         ]
                                     }, void 0, true, {
@@ -636,7 +642,7 @@ function ProjectCard({ project }) {
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-light-text font-inter font-medium",
+                                        className: "text-light-text font-inter font-medium leading-4",
                                         children: project.ubicacion
                                     }, void 0, false, {
                                         fileName: "[project]/components/Marketplace/MarketplaceHorizontal.tsx",

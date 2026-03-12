@@ -69,7 +69,6 @@
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --color-red-500: #fb2c36;
-    --color-yellow-50: #fefce8;
     --color-yellow-400: #fac800;
     --color-green-50: #f0fdf4;
     --color-green-400: #05df72;
@@ -77,7 +76,6 @@
     --color-blue-50: #eff6ff;
     --color-blue-100: #dbeafe;
     --color-blue-200: #bedbff;
-    --color-blue-300: #90c5ff;
     --color-blue-600: #155dfc;
     --color-blue-700: #1447e6;
     --color-blue-900: #1c398e;
@@ -138,7 +136,6 @@
   @supports (color: lab(0% 0 0)) {
     :root, :host {
       --color-red-500: lab(55.4814% 75.0732 48.8528);
-      --color-yellow-50: lab(98.6846% -1.79055 9.7766);
       --color-yellow-400: lab(83.2664% 8.65132 106.895);
       --color-green-50: lab(98.1563% -5.60117 2.75915);
       --color-green-400: lab(78.503% -64.9265 39.7492);
@@ -146,7 +143,6 @@
       --color-blue-50: lab(96.492% -1.14644 -5.11479);
       --color-blue-100: lab(92.0301% -2.24757 -11.6453);
       --color-blue-200: lab(86.15% -4.04379 -21.0797);
-      --color-blue-300: lab(77.5052% -6.4629 -36.42);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-blue-700: lab(36.9089% 35.0961 -85.6872);
       --color-blue-900: lab(26.1542% 15.7545 -51.5504);
@@ -452,24 +448,12 @@
     top: calc(var(--spacing) * -1);
   }
 
-  .-top-2 {
-    top: calc(var(--spacing) * -2);
-  }
-
-  .-top-4 {
-    top: calc(var(--spacing) * -4);
-  }
-
   .-top-6 {
     top: calc(var(--spacing) * -6);
   }
 
   .-top-8 {
     top: calc(var(--spacing) * -8);
-  }
-
-  .-top-10 {
-    top: calc(var(--spacing) * -10);
   }
 
   .-top-12 {
@@ -534,10 +518,6 @@
 
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
-  }
-
-  .bottom-3 {
-    bottom: calc(var(--spacing) * 3);
   }
 
   .left-0 {
@@ -755,10 +735,6 @@
     max-height: calc(var(--spacing) * 96);
   }
 
-  .max-h-\[400px\] {
-    max-height: 400px;
-  }
-
   .max-h-\[450px\] {
     max-height: 450px;
   }
@@ -769,10 +745,6 @@
 
   .min-h-screen {
     min-height: 100vh;
-  }
-
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
 
   .w-3 {
@@ -857,6 +829,10 @@
 
   .max-w-xs {
     max-width: var(--container-xs);
+  }
+
+  .min-w-3 {
+    min-width: calc(var(--spacing) * 3);
   }
 
   .flex-1 {
@@ -1156,10 +1132,6 @@
     background-color: #fafafa;
   }
 
-  .bg-black {
-    background-color: var(--color-black);
-  }
-
   .bg-black\/40 {
     background-color: #0006;
   }
@@ -1265,10 +1237,6 @@
     .bg-white\/95 {
       background-color: color-mix(in oklab, var(--color-white) 95%, transparent);
     }
-  }
-
-  .bg-yellow-50 {
-    background-color: var(--color-yellow-50);
   }
 
   .bg-linear-to-l {
@@ -1443,12 +1411,12 @@
     padding-top: calc(var(--spacing) * 4);
   }
 
-  .pt-8 {
-    padding-top: calc(var(--spacing) * 8);
-  }
-
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
+  }
+
+  .pt-16 {
+    padding-top: calc(var(--spacing) * 16);
   }
 
   .pr-4 {
@@ -1568,6 +1536,11 @@
 
   .text-\[15px\] {
     font-size: 15px;
+  }
+
+  .leading-4 {
+    --tw-leading: calc(var(--spacing) * 4);
+    line-height: calc(var(--spacing) * 4);
   }
 
   .leading-6 {
@@ -1920,6 +1893,12 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-core-blue:hover {
+      background-color: #003087;
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-gray-50:hover {
       background-color: var(--color-gray-50);
     }
@@ -1952,12 +1931,6 @@
       .hover\:bg-white\/30:hover {
         background-color: color-mix(in oklab, var(--color-white) 30%, transparent);
       }
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:text-blue-300:hover {
-      color: var(--color-blue-300);
     }
   }
 

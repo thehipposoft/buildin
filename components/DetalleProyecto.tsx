@@ -30,6 +30,17 @@ const ArrowIcon = ({ isOpen }: { isOpen: boolean }) => (
   </svg>
 );
 
+const FILES = [
+{
+  name: "Contrato de Inversion",
+  href: "https://abv.com.ar/proyectos/deco-polo/",
+},
+{
+  name: "Brochure",
+  href: "https://abv.com.ar/proyectos/deco-polo/",
+},
+]
+
 export default function DetalleProyecto({ projectId }: { projectId: string }) {
   const router = useRouter();
   console.log("projectId", projectId);
@@ -175,7 +186,7 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
                 </div>
               </div>
               <h4 className="text-lg font-manrope text-dark-text mb-2 font-medium">{desarrollador.nombre}</h4>
-              <p className="leading-6 text-justify text-base font-inter text-light-text">{desarrollador.descripcion}</p>
+              <p className="leading-6 text-base font-inter text-light-text">{desarrollador.descripcion}</p>
             </div>
           </div>
         </div>
@@ -187,7 +198,7 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
             <ArrowIcon isOpen={expandedSections.resumen} />
           </button>
           <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.resumen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-            <p className="leading-6 text-justify text-base font-inter text-light-text mt-2">{project.resumen}</p>
+            <p className="leading-6 text-base font-inter text-light-text mt-2">{project.resumen}</p>
           </div>
         </div>
 
@@ -241,21 +252,33 @@ export default function DetalleProyecto({ projectId }: { projectId: string }) {
           </button>
           <div className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedSections.documentos ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
             <div className="space-y-3 mt-4">
-              {[
-                "Contrato de Inversión",
-                "Brochure",
-                "Planos Arquitectónicos"
-              ].map((doc, idx) => (
-                <button key={idx} className="w-full flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+                <button className="w-full flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
                   <div className="flex items-center gap-3">
                     <FileText className="h-5 w-5 text-blue-accent" />
-                    <span className="text-sm font-medium text-blue-accent font-inter">{doc}</span>
+                    <span className="text-sm font-medium text-blue-accent font-inter">Contrato de Inversión</span>
                   </div>
                   <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 9L5 5L1 1" stroke="#0F6EEF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </button>
-              ))}
+                <Link href={project.brochure} rel="noreferrer" target="_blank" className="w-full flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <FileText className="h-5 w-5 text-blue-accent" />
+                    <span className="text-sm font-medium text-blue-accent font-inter">Brochure</span>
+                  </div>
+                  <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 9L5 5L1 1" stroke="#0F6EEF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </Link>
+                <button className="w-full flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <FileText className="h-5 w-5 text-blue-accent" />
+                    <span className="text-sm font-medium text-blue-accent font-inter">Planos Arquitectónicos</span>
+                  </div>
+                  <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 9L5 5L1 1" stroke="#0F6EEF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </button>
             </div>
           </div>
         </div>

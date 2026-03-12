@@ -35,7 +35,8 @@ const PROJECTS = [
         proyectosCompletados: 5,
         montoGestionado: "+ $50M gestionados.",
         stars: 4.5,
-        resumen: "Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad."
+        resumen: "Decó Polo presenta una nueva experiencia high-end en Buenos Aires, generando un nuevo legado en la ciudad.La arquitectura, el diseño y la naturaleza se unen de manera armónica para crear un espacio con identidad propia. Geometrías, juegos entre rectas y curvas sutiles. Cada detalle refleja sofisticación y funcionalidad.",
+        brochure: "https://abv.com.ar/proyectos/deco-polo/"
     },
     {
         id: "2",
@@ -61,7 +62,8 @@ const PROJECTS = [
         proyectosCompletados: 17,
         montoGestionado: "+ $50M gestionados.",
         stars: 4.5,
-        resumen: "Un nuevo complejo residencial que fusiona naturaleza y modernidad en un equilibrio perfecto. Mirabilia Hype ofrece amenities exclusivos: 4 piscinas climatizadas, un gimnasio equipado con la tecnología más avanzada, espacio polideportivo cubierto, sectores para la relajación y una renovada oferta gastronómica. Cuenta con 4.000m2 de pulmón verde, el complejo ofrece unidades de 1, 2, 3 y 4 dormitorios, con superficies que van desde los 55 m² hasta los 285 m², adaptándose a diferentes estilos de vida."
+        resumen: "Un nuevo complejo residencial que fusiona naturaleza y modernidad en un equilibrio perfecto. Mirabilia Hype ofrece amenities exclusivos: 4 piscinas climatizadas, un gimnasio equipado con la tecnología más avanzada, espacio polideportivo cubierto, sectores para la relajación y una renovada oferta gastronómica. Cuenta con 4.000m2 de pulmón verde, el complejo ofrece unidades de 1, 2, 3 y 4 dormitorios, con superficies que van desde los 55 m² hasta los 285 m², adaptándose a diferentes estilos de vida.",
+        brochure: "https://mirabiliahype.com/wp-content/uploads/2025/10/Brochure_M_Hype_2025_dig.pdf"
     },
     {
         id: "3",
@@ -87,7 +89,8 @@ const PROJECTS = [
         proyectosCompletados: 17,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "Ubicado en un punto estratégico de Acceso Norte y rodeado de comercios, deporte, gastronomía y servicios. OPEN Buenavista te permite moverte fácil, trabajar con comodidad y disfrutar cada momento con más libertad. Un proyecto de cuatro edificios, PB + 8 pisos, con unidades de categoría de 2, 3 y 4 ambientes. Superficies amplias y balcones aterrazados que amplían la experiencia de vivir adentro y afuera. OPEN propone un estilo de vida auténtico, flexible y lleno de posibilidades."
+        resumen: "Ubicado en un punto estratégico de Acceso Norte y rodeado de comercios, deporte, gastronomía y servicios. OPEN Buenavista te permite moverte fácil, trabajar con comodidad y disfrutar cada momento con más libertad. Un proyecto de cuatro edificios, PB + 8 pisos, con unidades de categoría de 2, 3 y 4 ambientes. Superficies amplias y balcones aterrazados que amplían la experiencia de vivir adentro y afuera. OPEN propone un estilo de vida auténtico, flexible y lleno de posibilidades.",
+        brochure: "https://drive.google.com/file/d/1D5nkyWjlVQ9pNowLO39CNBt_KnuqSrGo/view"
     },
     {
         id: "4",
@@ -113,7 +116,8 @@ const PROJECTS = [
         proyectosCompletados: 13,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "Más de 20.000 m² destinados a la construcción de un novedoso proyecto en Parque de Innovación, en el barrio de Núñez, una de las zonas más distinguidas de la Ciudad Autónoma de Buenos Aires. Este desarrollo residencial presenta más de 750 m² dedicados a locales comerciales y gastronómicos, terraza con espejo de agua y vegetación, y más de 400 m² de amenities. ✓ Parking comercial✓ 3 subsuelos de cocheras✓ Propuesta de servicios y experiencias a través de nuestro programa ALDEA®"
+        resumen: "Más de 20.000 m² destinados a la construcción de un novedoso proyecto en Parque de Innovación, en el barrio de Núñez, una de las zonas más distinguidas de la Ciudad Autónoma de Buenos Aires. Este desarrollo residencial presenta más de 750 m² dedicados a locales comerciales y gastronómicos, terraza con espejo de agua y vegetación, y más de 400 m² de amenities. ✓ Parking comercial✓ 3 subsuelos de cocheras✓ Propuesta de servicios y experiencias a través de nuestro programa ALDEA®",
+        brochure: "https://grupoportland.com/wp-content/uploads/2023/06/Brochure-Nova-impreso-06.pdf"
     },
     {
         id: "5",
@@ -139,7 +143,8 @@ const PROJECTS = [
         proyectosCompletados: 13,
         montoGestionado: "+ $50M gestionados.",
         stars: 4,
-        resumen: "One Residential Tower es un excepcional desarrollo inmobiliario ubicado estraté-gicamente en un lote de 1200 m2 en el corredor de la avenida Maipú en Vicente López. Este proyecto se destaca por ofre-cer 90 unidades de 2 y 3 ambientes, que varían en tamaño de 55 a 93 m2. Cada unidad ha sido cuidadosamente diseñada para ofrecer una experiencia de vida premium. ONE Residential Tower se alza en Vicente López, rodeado de áreas verdes y a solo unas cuadras del Río de la Plata, con vistas panorámicas y la serenidad de este entorno único."
+        resumen: "One Residential Tower es un excepcional desarrollo inmobiliario ubicado estraté-gicamente en un lote de 1200 m2 en el corredor de la avenida Maipú en Vicente López. Este proyecto se destaca por ofre-cer 90 unidades de 2 y 3 ambientes, que varían en tamaño de 55 a 93 m2. Cada unidad ha sido cuidadosamente diseñada para ofrecer una experiencia de vida premium. ONE Residential Tower se alza en Vicente López, rodeado de áreas verdes y a solo unas cuadras del Río de la Plata, con vistas panorámicas y la serenidad de este entorno único.",
+        brochure: "https://tsfdesarrollos.com/wp-content/uploads/2023/10/One-Brochure.pdf"
     }
 ];
 const FILTER_OPTIONS = {
@@ -255,6 +260,14 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
         roi: initialFilters.roi || null,
         plazo: initialFilters.plazo || null
     });
+    const [bookmarkedIds, setBookmarkedIds] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(new Set());
+    const handleBookmarkClick = (id)=>{
+        setBookmarkedIds((prev)=>{
+            const next = new Set(prev);
+            next.has(id) ? next.delete(id) : next.add(id);
+            return next;
+        });
+    };
     // Update filters when initial values change
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Marketplace.useEffect": ()=>{
@@ -326,7 +339,7 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                             className: "absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400"
                         }, void 0, false, {
                             fileName: "[project]/components/Marketplace/index.tsx",
-                            lineNumber: 108,
+                            lineNumber: 114,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -337,13 +350,13 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                             onChange: (e)=>setSearchQuery(e.target.value)
                         }, void 0, false, {
                             fileName: "[project]/components/Marketplace/index.tsx",
-                            lineNumber: 109,
+                            lineNumber: 115,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Marketplace/index.tsx",
-                    lineNumber: 107,
+                    lineNumber: 113,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -357,20 +370,20 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                     children: "Filtros Aplicados"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 127,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$funnel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Filter$3e$__["Filter"], {
                                     className: "h-4 w-4 text-core-blue"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 128,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Marketplace/index.tsx",
-                            lineNumber: 120,
+                            lineNumber: 126,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -388,13 +401,13 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     className: "h-3 w-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 142,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 134,
                                             columnNumber: 29
                                         }, this),
                                         activeDropdown === "ubicacion" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -405,18 +418,18 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     children: opt
                                                 }, opt, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 141,
+                                                    lineNumber: 147,
                                                     columnNumber: 41
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 145,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 133,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -431,13 +444,13 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     className: "h-3 w-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 163,
+                                                    lineNumber: 169,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 155,
+                                            lineNumber: 161,
                                             columnNumber: 29
                                         }, this),
                                         activeDropdown === "estado" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -448,18 +461,18 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     children: opt
                                                 }, opt, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 174,
                                                     columnNumber: 41
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 172,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 160,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -474,13 +487,13 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     className: "h-3 w-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 196,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 182,
+                                            lineNumber: 188,
                                             columnNumber: 29
                                         }, this),
                                         activeDropdown === "roi" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -491,18 +504,18 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     children: opt
                                                 }, opt, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 195,
+                                                    lineNumber: 201,
                                                     columnNumber: 41
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 199,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 187,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -517,13 +530,13 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     className: "h-3 w-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 217,
+                                                    lineNumber: 223,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 209,
+                                            lineNumber: 215,
                                             columnNumber: 29
                                         }, this),
                                         activeDropdown === "plazo" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -534,30 +547,30 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                                     children: opt
                                                 }, opt, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 228,
                                                     columnNumber: 41
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 220,
+                                            lineNumber: 226,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 208,
+                                    lineNumber: 214,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Marketplace/index.tsx",
-                            lineNumber: 125,
+                            lineNumber: 131,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Marketplace/index.tsx",
-                    lineNumber: 119,
+                    lineNumber: 125,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -565,242 +578,242 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                     children: "Resultados de búsqueda"
                 }, void 0, false, {
                     fileName: "[project]/components/Marketplace/index.tsx",
-                    lineNumber: 237,
+                    lineNumber: 243,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col gap-4",
-                    children: filteredProjects.map((project)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: `/proyectos/${project.id}`,
+                    children: filteredProjects.map((project, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "group relative overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md border border-gray-100 flex",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: `/proyectos/${project.id}`,
                                     className: "relative w-40 shrink-0 overflow-hidden",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: project.imagenVertical,
-                                            alt: project.nombre,
-                                            fill: true,
-                                            className: "object-cover"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 251,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "absolute bottom-3 left-3 rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-dark-text shadow-sm backdrop-blur-xs hover:bg-white font-inter",
-                                            children: "Ver más"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 257,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: project.imagenVertical,
+                                        alt: project.nombre,
+                                        fill: true,
+                                        className: "object-cover"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Marketplace/index.tsx",
+                                        lineNumber: 257,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 250,
+                                    lineNumber: 256,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex-1 px-4 pt-8 pb-4 gap-4 flex flex-col relative",
+                                    className: "flex-1 px-4 pt-16 pb-4 gap-4 flex flex-col relative",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex flex-col items-center absolute right-2 top-2",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: `/proyectos/${project.id}`,
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: project.logo,
-                                                    alt: project.desarrollador,
-                                                    width: 45,
-                                                    height: 45,
-                                                    className: "z-20 rounded-full "
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 265,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/stars.png",
-                                                    alt: "rating",
-                                                    width: 45,
-                                                    height: 45,
-                                                    className: ""
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 266,
-                                                    columnNumber: 37
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 264,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "mb-1 text-lg font-semibold text-dark-text font-manrope",
-                                            children: project.nombre
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 268,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: " flex items-start gap-1.5 text-xs text-light-text",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                    width: "13",
-                                                    height: "15",
-                                                    fill: "none",
-                                                    className: "mt-0.5 shrink-0",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex flex-col items-center absolute right-2 top-2",
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                            fill: "#0F6EEF",
-                                                            d: "M10.714 5.798a4.69 4.69 0 0 0-4.452-4.452L6.03 1.34a4.69 4.69 0 0 0-4.69 4.69c0 1.447.815 3.006 1.875 4.398 1.023 1.345 2.198 2.433 2.815 2.969.617-.536 1.792-1.624 2.815-2.969 1.06-1.392 1.875-2.951 1.875-4.398l-.006-.232Zm1.346.232c0 1.899-1.04 3.754-2.148 5.21-.983 1.29-2.084 2.352-2.773 2.967l-.268.235a1.34 1.34 0 0 1-.732.293l-.109.005a1.34 1.34 0 0 1-.716-.207l-.09-.062-.035-.029c-.64-.552-1.918-1.727-3.041-3.203C1.04 9.784 0 7.93 0 6.03a6.03 6.03 0 1 1 12.06 0Z"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            src: project.logo,
+                                                            alt: project.desarrollador,
+                                                            width: 45,
+                                                            height: 45,
+                                                            className: "z-20 rounded-full "
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                                            lineNumber: 270,
-                                                            columnNumber: 140
+                                                            lineNumber: 269,
+                                                            columnNumber: 37
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                            fill: "#555D6D",
-                                                            d: "M7.372 6.04a1.34 1.34 0 1 0-2.68 0 1.34 1.34 0 0 0 2.68 0Zm1.34 0a2.68 2.68 0 1 1-5.36 0 2.68 2.68 0 0 1 5.36 0Z"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            src: "/assets/images/stars.png",
+                                                            alt: "rating",
+                                                            width: 45,
+                                                            height: 45,
+                                                            className: ""
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Marketplace/index.tsx",
                                                             lineNumber: 270,
-                                                            columnNumber: 640
+                                                            columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 270,
-                                                    columnNumber: 37
+                                                    lineNumber: 268,
+                                                    columnNumber: 33
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "line-clamp-1 font-inter font-medium",
-                                                    children: project.ubicacion
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "mb-1 text-lg font-semibold text-dark-text font-manrope",
+                                                    children: project.nombre
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 271,
-                                                    columnNumber: 37
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 269,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mb-3 space-y-1.5",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2 text-sm",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
-                                                            className: "h-4 w-4 text-blue-accent"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                                            lineNumber: 276,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "font-medium text-dark-text font-inter",
-                                                            children: [
-                                                                "ROI: ",
-                                                                project.roi
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                                            lineNumber: 277,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 275,
-                                                    columnNumber: 37
+                                                    lineNumber: 272,
+                                                    columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2 text-sm",
+                                                    className: " flex items-start gap-1.5 text-xs text-light-text",
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tag$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tag$3e$__["Tag"], {
-                                                            className: "h-4 w-4 text-blue-accent"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                                            lineNumber: 280,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-dark-text font-medium font-inter",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                            xmlns: "http://www.w3.org/2000/svg",
+                                                            width: "13",
+                                                            height: "15",
+                                                            fill: "none",
+                                                            className: "mt-0.5 shrink-0",
                                                             children: [
-                                                                "Ticket mínimo: ",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "font-semibold text-dark-text",
-                                                                    children: [
-                                                                        "$",
-                                                                        project.inversionMinima.toLocaleString()
-                                                                    ]
-                                                                }, void 0, true, {
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                    fill: "#0F6EEF",
+                                                                    d: "M10.714 5.798a4.69 4.69 0 0 0-4.452-4.452L6.03 1.34a4.69 4.69 0 0 0-4.69 4.69c0 1.447.815 3.006 1.875 4.398 1.023 1.345 2.198 2.433 2.815 2.969.617-.536 1.792-1.624 2.815-2.969 1.06-1.392 1.875-2.951 1.875-4.398l-.006-.232Zm1.346.232c0 1.899-1.04 3.754-2.148 5.21-.983 1.29-2.084 2.352-2.773 2.967l-.268.235a1.34 1.34 0 0 1-.732.293l-.109.005a1.34 1.34 0 0 1-.716-.207l-.09-.062-.035-.029c-.64-.552-1.918-1.727-3.041-3.203C1.04 9.784 0 7.93 0 6.03a6.03 6.03 0 1 1 12.06 0Z"
+                                                                }, void 0, false, {
                                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                                    lineNumber: 281,
-                                                                    columnNumber: 112
+                                                                    lineNumber: 274,
+                                                                    columnNumber: 140
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                    fill: "#555D6D",
+                                                                    d: "M7.372 6.04a1.34 1.34 0 1 0-2.68 0 1.34 1.34 0 0 0 2.68 0Zm1.34 0a2.68 2.68 0 1 1-5.36 0 2.68 2.68 0 0 1 5.36 0Z"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                                    lineNumber: 274,
+                                                                    columnNumber: 640
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                                            lineNumber: 281,
-                                                            columnNumber: 41
+                                                            lineNumber: 274,
+                                                            columnNumber: 37
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "line-clamp-1 font-inter font-medium",
+                                                            children: project.ubicacion
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Marketplace/index.tsx",
+                                                            lineNumber: 275,
+                                                            columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                                    lineNumber: 279,
-                                                    columnNumber: 37
+                                                    lineNumber: 273,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mb-3 space-y-1.5",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex items-center gap-2 text-sm",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
+                                                                    className: "h-4 w-4 text-blue-accent"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                                    lineNumber: 280,
+                                                                    columnNumber: 41
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "font-medium text-dark-text font-inter",
+                                                                    children: [
+                                                                        "ROI: ",
+                                                                        project.roi
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                                    lineNumber: 281,
+                                                                    columnNumber: 41
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/Marketplace/index.tsx",
+                                                            lineNumber: 279,
+                                                            columnNumber: 37
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex items-center gap-2 text-sm",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$tag$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tag$3e$__["Tag"], {
+                                                                    className: "h-4 w-4 text-blue-accent"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                                    lineNumber: 284,
+                                                                    columnNumber: 41
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-dark-text font-medium font-inter",
+                                                                    children: [
+                                                                        "Ticket mínimo: ",
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "font-semibold text-dark-text",
+                                                                            children: [
+                                                                                "$",
+                                                                                project.inversionMinima.toLocaleString()
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/components/Marketplace/index.tsx",
+                                                                            lineNumber: 285,
+                                                                            columnNumber: 112
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                                    lineNumber: 285,
+                                                                    columnNumber: 41
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/Marketplace/index.tsx",
+                                                            lineNumber: 283,
+                                                            columnNumber: 37
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                    lineNumber: 278,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mb-3",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "inline-block rounded-md bg-gray-100 px-2.5 py-1 text-xs font-medium text-light-text font-inter",
+                                                        children: [
+                                                            "Estado: ",
+                                                            project.status
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/Marketplace/index.tsx",
+                                                        lineNumber: 291,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                    lineNumber: 290,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-sm text-light-text",
+                                                        children: [
+                                                            "Desarrolla : ",
+                                                            project.desarrollador
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/Marketplace/index.tsx",
+                                                        lineNumber: 297,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Marketplace/index.tsx",
+                                                    lineNumber: 296,
+                                                    columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 274,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mb-3",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "inline-block rounded-md bg-gray-100 px-2.5 py-1 text-xs font-medium text-light-text font-inter",
-                                                children: [
-                                                    "Estado: ",
-                                                    project.status
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/Marketplace/index.tsx",
-                                                lineNumber: 287,
-                                                columnNumber: 37
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 286,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-light-text",
-                                                children: [
-                                                    "Desarrolla : ",
-                                                    project.desarrollador
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/Marketplace/index.tsx",
-                                                lineNumber: 293,
-                                                columnNumber: 37
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 292,
-                                            columnNumber: 33
+                                            lineNumber: 267,
+                                            columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex items-center justify-end gap-2",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-blue-50",
+                                                onClick: ()=>handleBookmarkClick(index),
+                                                className: `${bookmarkedIds.has(index) ? "bg-core-blue text-white" : "bg-white text-core-blue"} relative flex h-10 w-10 items-center justify-center rounded-xl border border-core-blue text-core-blue transition-colors hover:bg-core-blue`,
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bookmark$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bookmark$3e$__["Bookmark"], {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
@@ -815,39 +828,39 @@ function Marketplace({ initialSearchQuery = "", initialFilters = {} } = {}) {
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Marketplace/index.tsx",
-                                            lineNumber: 311,
+                                            lineNumber: 314,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Marketplace/index.tsx",
-                                    lineNumber: 263,
+                                    lineNumber: 266,
                                     columnNumber: 29
                                 }, this)
                             ]
-                        }, project.id, true, {
+                        }, index, true, {
                             fileName: "[project]/components/Marketplace/index.tsx",
-                            lineNumber: 242,
+                            lineNumber: 248,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/Marketplace/index.tsx",
-                    lineNumber: 240,
+                    lineNumber: 246,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Marketplace/index.tsx",
-            lineNumber: 105,
+            lineNumber: 111,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Marketplace/index.tsx",
-        lineNumber: 104,
+        lineNumber: 110,
         columnNumber: 9
     }, this);
 }
-_s(Marketplace, "v9MFxoZ8tmC+fUaAQ1GRhCM8YUA=");
+_s(Marketplace, "NlX/uGdG7WR+PyQIadnsv1KITO8=");
 _c = Marketplace;
 var _c;
 __turbopack_context__.k.register(_c, "Marketplace");
