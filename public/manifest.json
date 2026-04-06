@@ -1,0 +1,32 @@
+{
+  "name": "Buildin",
+  "short_name": "Buildin",
+  "description": "Invertí y desarrollá proyectos inmobiliarios en un solo lugar",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "dir": "auto",
+  "lang": "es-419",
+  "theme_color": "#003087",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon512_maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon512_rounded.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
