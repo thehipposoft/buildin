@@ -2,7 +2,9 @@
   "name": "Buildin",
   "short_name": "Buildin",
   "description": "Invertí y desarrollá proyectos inmobiliarios en un solo lugar",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
   "dir": "auto",
@@ -17,6 +19,12 @@
       "purpose": "any"
     },
     {
+      "src": "/192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "/icon512_maskable.png",
       "sizes": "512x512",
       "type": "image/png",
@@ -27,6 +35,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Buildin - Vista móvil"
+    },
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Buildin - Vista escritorio"
     }
   ]
 }
