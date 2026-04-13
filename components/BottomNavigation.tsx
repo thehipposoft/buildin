@@ -1,5 +1,5 @@
-import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function BottomNavigation() {
     return (
@@ -8,14 +8,20 @@ export default function BottomNavigation() {
                 <Image src={"/assets/images/svg/bookmark.svg"} width={24} height={24} alt="Soporte" />
                 <span className="text-[10px] text-light-text font-bold">Guardados</span>
             </button>
-            <button className={`flex flex-col items-center gap-1 p-1`}>
+            <Link
+                className={`flex flex-col items-center gap-1 p-1`}
+                href={"/inversiones"}
+            >
                 <Image src={"/assets/images/svg/maletin2.svg"} width={24} height={24} alt="Soporte" />
                 <span className="text-[10px] text-light-text font-bold">Inversiones</span>
-            </button>
-            <button className={`flex flex-col items-center gap-1 relative -top-6 border-gray-200 `}>
+            </Link>
+            <Link
+                className={`flex flex-col items-center gap-1 relative -top-6 border-gray-200 `}
+                href={"/"}
+            >
                 <Image src={"/assets/images/logo/buildin_icon_blue.png"} width={100} height={100} alt="Buildin" className="rounded-full bg-white absolute -top-12 border-t-2" />
                 <span className="text-xs text-core-blue font-bold">Explorar</span>
-            </button>
+            </Link>
             <button className={`flex flex-col items-center gap-1 p-1`}>
                 <Image src={"/assets/images/svg/settings.svg"} width={24} height={24} alt="Soporte" />
                 <span className="text-[10px] text-light-text font-bold">Configuracion</span>

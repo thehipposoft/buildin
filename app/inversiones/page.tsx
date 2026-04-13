@@ -1,7 +1,7 @@
-import Header from '@/components/Header'
-import Inversiones from '@/components/Inversiones'
-import React from 'react'
-import Image from 'next/image'
+import Header from '@/components/Header';
+import Inversiones from '@/components/Inversiones';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function InversionesPage() {
     return (
@@ -13,14 +13,17 @@ export default function InversionesPage() {
                             <Image src={"/assets/images/svg/bookmark.svg"} width={24} height={24} alt="Soporte" />
                             <span className="text-[10px] text-light-text font-bold">Guardados</span>
                         </button>
-                        <button className={`flex flex-col items-center gap-1 p-1`}>
+                        <Link className={`flex flex-col items-center gap-1 p-1`} href={"/"}>
                             <Image src={"/assets/images/svg/ruedagris.svg"} width={24} height={24} alt="Soporte" />
                             <span className="text-[10px] text-light-text font-bold">Explorar</span>
-                        </button>
-                        <button className={`flex flex-col items-center gap-1 relative -top-6 border-gray-200 bg-white rounded-full p-1`}>
+                        </Link>
+                        <Link
+                            className={`flex flex-col items-center gap-1 relative -top-6 border-gray-200 bg-white rounded-full p-1`}
+                            href={"/inversiones"}
+                        >
                             <Image src={"/assets/images/svg/maletin2.svg"} width={40} height={40} alt="Buildin" className="r" />
                             <span className="text-xs text-core-blue font-bold">Inversiones</span>
-                        </button>
+                        </Link>
                         <button className={`flex flex-col items-center gap-1 p-1`}>
                             <Image src={"/assets/images/svg/settings.svg"} width={24} height={24} alt="Soporte" />
                             <span className="text-[10px] text-light-text font-bold">Configuracion</span>
